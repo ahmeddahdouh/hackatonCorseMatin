@@ -1,0 +1,57 @@
+[
+  {
+    "id": "distribution",
+    "name": "Distribution / Commerce",
+    "description": "Grandes surfaces, supermarchés, magasins spécialisés"
+  },
+  {
+    "id": "automobile",
+    "name": "Automobile",
+    "description": "Concessionnaires, services auto, carburants"
+  },
+  {
+    "id": "btp",
+    "name": "BTP / Immobilier",
+    "description": "Construction, immobilier, matériaux"
+  },
+  {
+    "id": "sante",
+    "name": "Santé / Bien-être",
+    "description": "Pharmacies, cliniques, centres de bien-être, beauté"
+  },
+  {
+    "id": "tourisme",
+    "name": "Tourisme / Loisirs",
+    "description": "Hôtels, restaurants, activités, patrimoine"
+  },
+  {
+    "id": "institutionnel",
+    "name": "Institutionnel",
+    "description": "Collectivités, associations, services publics"
+  },
+  {
+    "id": "finances",
+    "name": "Finances / Assurances",
+    "description": "Banques, assurances, services financiers"
+  },
+  {
+    "id": "telecom",
+    "name": "Télécom / IT",
+    "description": "Opérateurs, services internet, logiciels"
+  },
+  {
+    "id": "education",
+    "name": "Éducation",
+    "description": "Écoles, formations, centres de cours"
+  },
+  {
+    "id": "agro",
+    "name": "Agro-alimentaire",
+    "description": "Vins, produits corses, agriculture"
+  },
+  {
+    "id": "autre",
+    "name": "Autre",
+    "description": "Autres secteurs d'activité"
+  }
+]

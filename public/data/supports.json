@@ -1,0 +1,155 @@
+[
+  {
+    "id": "print-quotidien",
+    "name": "Corse-Matin",
+    "category": "Quotidien",
+    "channel": "print",
+    "description": "Principal quotidien régional - Diffusion: 15 000 ex/jour",
+    "monthlyReach": 139000,
+    "monthlyImpressions": 556000
+  },
+  {
+    "id": "print-moteurs",
+    "name": "Supplément Moteurs",
+    "category": "Supplément",
+    "channel": "print",
+    "description": "Supplément automobile spécialisé",
+    "monthlyReach": 85000,
+    "monthlyImpressions": 340000
+  },
+  {
+    "id": "print-immo",
+    "name": "Supplément Immobilier",
+    "category": "Supplément",
+    "channel": "print",
+    "description": "Supplément immobilier et construction",
+    "monthlyReach": 92000,
+    "monthlyImpressions": 368000
+  },
+  {
+    "id": "print-economie",
+    "name": "Supplément Économia",
+    "category": "Supplément",
+    "channel": "print",
+    "description": "Supplément économie et business",
+    "monthlyReach": 78000,
+    "monthlyImpressions": 312000
+  },
+  {
+    "id": "print-emploi",
+    "name": "Supplément Emploi",
+    "category": "Supplément",
+    "channel": "print",
+    "description": "Supplément emploi et carrières",
+    "monthlyReach": 65000,
+    "monthlyImpressions": 260000
+  },
+  {
+    "id": "print-sante",
+    "name": "Supplément Santé",
+    "category": "Supplément",
+    "channel": "print",
+    "description": "Supplément santé et bien-être",
+    "monthlyReach": 71000,
+    "monthlyImpressions": 284000
+  },
+  {
+    "id": "magazine-diverto",
+    "name": "Diverto",
+    "category": "Magazine",
+    "channel": "print",
+    "description": "Magazine couleur loisirs et vie pratique",
+    "monthlyReach": 95000,
+    "monthlyImpressions": 380000
+  },
+  {
+    "id": "magazine-femina",
+    "name": "Version Femina",
+    "category": "Magazine",
+    "channel": "print",
+    "description": "Magazine féminin et lifestyle",
+    "monthlyReach": 68000,
+    "monthlyImpressions": 272000
+  },
+  {
+    "id": "site-corsematin",
+    "name": "corsematin.com",
+    "category": "Web",
+    "channel": "digital",
+    "description": "Site web - 2,5M visites/mois",
+    "monthlyReach": 850000,
+    "monthlyImpressions": 2500000
+  },
+  {
+    "id": "app-corsematin",
+    "name": "Application Corse-Matin",
+    "category": "Mobile",
+    "channel": "digital",
+    "description": "App mobile - 400K visites/mois",
+    "monthlyReach": 280000,
+    "monthlyImpressions": 400000
+  },
+  {
+    "id": "facebook-corsematin",
+    "name": "Facebook",
+    "category": "Réseau Social",
+    "channel": "social",
+    "description": "Page officielle - 245K followers",
+    "monthlyReach": 245000,
+    "monthlyImpressions": 980000
+  },
+  {
+    "id": "instagram-corsematin",
+    "name": "Instagram",
+    "category": "Réseau Social",
+    "channel": "social",
+    "description": "Compte officiel - 185K followers",
+    "monthlyReach": 185000,
+    "monthlyImpressions": 740000
+  },
+  {
+    "id": "linkedin-corsematin",
+    "name": "LinkedIn",
+    "category": "Réseau Social",
+    "channel": "social",
+    "description": "Présence professionnelle B2B",
+    "monthlyReach": 125000,
+    "monthlyImpressions": 500000
+  },
+  {
+    "id": "youtube-corsematin",
+    "name": "YouTube",
+    "category": "Réseau Social",
+    "channel": "social",
+    "description": "Chaîne vidéo officielle",
+    "monthlyReach": 220000,
+    "monthlyImpressions": 1100000
+  },
+  {
+    "id": "event-impresa",
+    "name": "Club Impresa",
+    "category": "Événement",
+    "channel": "event",
+    "description": "Club d'affaires et événements professionnels",
+    "monthlyReach": 450,
+    "monthlyImpressions": 450
+  },
+  {
+    "id": "event-sante",
+    "name": "Parlons Santé",
+    "category": "Événement",
+    "channel": "event",
+    "description": "Événement santé et bien-être",
+    "monthlyReach": 380,
+    "monthlyImpressions": 380
+  },
+  {
+    "id": "event-trophees",
+    "name": "Trophées Corse-Matin",
+    "category": "Événement",
+    "channel": "event",
+    "description": "Gala et récompenses annuel",
+    "monthlyReach": 520,
+    "monthlyImpressions": 520
+  }
+]

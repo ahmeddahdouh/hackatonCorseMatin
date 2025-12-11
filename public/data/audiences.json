@@ -1,0 +1,83 @@
+[
+  {
+    "id": "aud_corse_matin",
+    "supportId": "corse-matin",
+    "formatId": "format_demi_page_corse_matin",
+    "monthlyReach": 139000,
+    "monthlyImpressions": 556000,
+    "targetDemographics": ["25-40 ans", "CSP+", "Décideurs"],
+    "description": "Lecteurs Corse-Matin (moyenne 139 000/jour)"
+  },
+  {
+    "id": "aud_corsematin_web",
+    "supportId": "corsematin-web",
+    "formatId": "format_habillage_corsematin_web",
+    "monthlyReach": 850000,
+    "monthlyImpressions": 2500000,
+    "targetDemographics": ["25-55 ans", "Web-actifs", "Lecteurs news"],
+    "description": "Visiteurs corsematin.com (2,5 M visites/mois)"
+  },
+  {
+    "id": "aud_appli_smart_cover",
+    "supportId": "appli-mobile-corsica",
+    "formatId": "format_smart_cover_appli",
+    "monthlyReach": 280000,
+    "monthlyImpressions": 400000,
+    "targetDemographics": ["25-40 ans", "Urbain", "Mobile-first"],
+    "description": "Utilisateurs appli Corsica+ (400 K visites/mois)"
+  },
+  {
+    "id": "aud_appli_interstitiel",
+    "supportId": "appli-mobile-corsica",
+    "formatId": "format_interstitiel_appli",
+    "monthlyReach": 280000,
+    "monthlyImpressions": 400000,
+    "targetDemographics": ["25-40 ans", "Urbain", "Mobile-first"],
+    "description": "Interstitiels appli mobile"
+  },
+  {
+    "id": "aud_facebook",
+    "supportId": "facebook-corsica",
+    "formatId": "format_post_facebook",
+    "monthlyReach": 200000,
+    "monthlyImpressions": 800000,
+    "targetDemographics": ["25-55 ans", "Facebook-actifs", "CSP+"],
+    "description": "Audience Facebook Corse (200 K followers)"
+  },
+  {
+    "id": "aud_instagram",
+    "supportId": "instagram-corsica",
+    "formatId": "format_story_instagram",
+    "monthlyReach": 135000,
+    "monthlyImpressions": 540000,
+    "targetDemographics": ["25-40 ans", "Instagram-actifs", "Urbain"],
+    "description": "Audience Instagram Corse (135 K followers)"
+  },
+  {
+    "id": "aud_affichage",
+    "supportId": "affichage-ajaccio",
+    "formatId": "format_affichage_4x3",
+    "monthlyReach": 95000,
+    "monthlyImpressions": 380000,
+    "targetDemographics": ["Tout public", "Urbain Ajaccio", "Passants"],
+    "description": "Affichage urbain Corse-du-Sud"
+  },
+  {
+    "id": "aud_radio",
+    "supportId": "radio-corsica",
+    "formatId": "format_spot_radio_30s",
+    "monthlyReach": 156000,
+    "monthlyImpressions": 624000,
+    "targetDemographics": ["25-60 ans", "Conducteurs", "Auditeurs radio"],
+    "description": "Audience radio Corse (156 K auditeurs)"
+  },
+  {
+    "id": "aud_youtube",
+    "supportId": "youtube-corsica",
+    "formatId": "format_preroll_youtube",
+    "monthlyReach": 220000,
+    "monthlyImpressions": 1100000,
+    "targetDemographics": ["25-40 ans", "YouTube-actifs", "Streamers"],
+    "description": "Viewers YouTube contenu corse"
+  }
+]

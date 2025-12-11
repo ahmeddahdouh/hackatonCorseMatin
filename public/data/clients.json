@@ -1,0 +1,16 @@
+{
+  "clients": [
+    {
+      "id": "client_demo",
+      "name": "Client Exemple",
+      "type": "B2C",
+      "industry": "Retail"
+    },
+    {
+      "id": "client_demo_b2b",
+      "name": "Client B2B Exemple",
+      "type": "B2B",
+      "industry": "Technology"
+    }
+  ]
+}

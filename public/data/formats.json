@@ -1,0 +1,258 @@
+[
+  {
+    "id": "fmt_demi_page",
+    "name": "Demi-page",
+    "category": "Print",
+    "supportId": "print-quotidien",
+    "dimensions": "210x148mm",
+    "type": "Image/Design",
+    "audienceMultiplier": 1.0
+  },
+  {
+    "id": "fmt_quart_page",
+    "name": "Quart de page",
+    "category": "Print",
+    "supportId": "print-quotidien",
+    "dimensions": "105x148mm",
+    "type": "Image/Design",
+    "audienceMultiplier": 0.6
+  },
+  {
+    "id": "fmt_pavé",
+    "name": "Pavé 4 colonnes",
+    "category": "Print",
+    "supportId": "print-quotidien",
+    "dimensions": "105x75mm",
+    "type": "Image/Design",
+    "audienceMultiplier": 0.4
+  },
+  {
+    "id": "fmt_supplement",
+    "name": "Couverture supplément",
+    "category": "Print",
+    "supportId": "print-moteurs",
+    "dimensions": "A4",
+    "type": "Image/Design",
+    "audienceMultiplier": 1.2
+  },
+  {
+    "id": "fmt_magazine_pleine",
+    "name": "Pleine page magazine",
+    "category": "Print",
+    "supportId": "magazine-diverto",
+    "dimensions": "A4",
+    "type": "Image/Design",
+    "audienceMultiplier": 1.0
+  },
+  {
+    "id": "fmt_magazine_demi",
+    "name": "Demi-page magazine",
+    "category": "Print",
+    "supportId": "magazine-diverto",
+    "dimensions": "A5",
+    "type": "Image/Design",
+    "audienceMultiplier": 0.65
+  },
+  {
+    "id": "fmt_web_habillage",
+    "name": "Habillage site",
+    "category": "Digital",
+    "supportId": "site-corsematin",
+    "dimensions": "1400x500px",
+    "type": "Image/HTML5",
+    "audienceMultiplier": 0.8,
+    "duration": "7 jours"
+  },
+  {
+    "id": "fmt_web_pavé",
+    "name": "Pavé 300x250",
+    "category": "Digital",
+    "supportId": "site-corsematin",
+    "dimensions": "300x250px",
+    "type": "Image/HTML5",
+    "audienceMultiplier": 0.5,
+    "duration": "30 jours"
+  },
+  {
+    "id": "fmt_web_skyscraper",
+    "name": "Skyscraper 120x600",
+    "category": "Digital",
+    "supportId": "site-corsematin",
+    "dimensions": "120x600px",
+    "type": "Image/HTML5",
+    "audienceMultiplier": 0.4,
+    "duration": "30 jours"
+  },
+  {
+    "id": "fmt_app_smartcover",
+    "name": "Smart Cover app",
+    "category": "Digital",
+    "supportId": "app-corsematin",
+    "dimensions": "375x667px",
+    "type": "Image/HTML5",
+    "audienceMultiplier": 1.2,
+    "duration": "7 jours"
+  },
+  {
+    "id": "fmt_app_interstitiel",
+    "name": "Interstitiel app",
+    "category": "Digital",
+    "supportId": "app-corsematin",
+    "dimensions": "320x480px",
+    "type": "Image/HTML5",
+    "audienceMultiplier": 0.7,
+    "duration": "7 jours"
+  },
+  {
+    "id": "fmt_facebook_post",
+    "name": "Post sponsorisé",
+    "category": "Social",
+    "supportId": "facebook-corsematin",
+    "dimensions": "1200x628px",
+    "type": "Image/Video",
+    "audienceMultiplier": 0.9,
+    "duration": "7 jours"
+  },
+  {
+    "id": "fmt_facebook_carousel",
+    "name": "Carousel 5 images",
+    "category": "Social",
+    "supportId": "facebook-corsematin",
+    "dimensions": "1200x628px",
+    "type": "Image/Video",
+    "audienceMultiplier": 1.1,
+    "duration": "7 jours"
+  },
+  {
+    "id": "fmt_instagram_post",
+    "name": "Post Instagram",
+    "category": "Social",
+    "supportId": "instagram-corsematin",
+    "dimensions": "1080x1080px",
+    "type": "Image",
+    "audienceMultiplier": 0.8,
+    "duration": "14 jours"
+  },
+  {
+    "id": "fmt_instagram_story",
+    "name": "Story Instagram",
+    "category": "Social",
+    "supportId": "instagram-corsematin",
+    "dimensions": "1080x1920px",
+    "type": "Image/Video",
+    "audienceMultiplier": 1.0,
+    "duration": "1 jour"
+  },
+  {
+    "id": "fmt_instagram_reel",
+    "name": "Reel Instagram",
+    "category": "Social",
+    "supportId": "instagram-corsematin",
+    "dimensions": "1080x1920px",
+    "type": "Video",
+    "audienceMultiplier": 1.3,
+    "duration": "30 jours"
+  },
+  {
+    "id": "fmt_linkedin_post",
+    "name": "Post LinkedIn",
+    "category": "Social",
+    "supportId": "linkedin-corsematin",
+    "dimensions": "1200x628px",
+    "type": "Image/Text",
+    "audienceMultiplier": 0.7,
+    "duration": "30 jours"
+  },
+  {
+    "id": "fmt_youtube_preroll",
+    "name": "Pre-roll 15s",
+    "category": "Social",
+    "supportId": "youtube-corsematin",
+    "dimensions": "1920x1080px",
+    "type": "Video",
+    "audienceMultiplier": 1.1,
+    "duration": "30 jours"
+  },
+  {
+    "id": "fmt_youtube_bumper",
+    "name": "Bumper 6s",
+    "category": "Social",
+    "supportId": "youtube-corsematin",
+    "dimensions": "1920x1080px",
+    "type": "Video",
+    "audienceMultiplier": 0.6,
+    "duration": "30 jours"
+  },
+  {
+    "id": "fmt_affichage_4x3",
+    "name": "Affichage 4x3",
+    "category": "Outdoor",
+    "supportId": "event-impresa",
+    "dimensions": "4000x3000px",
+    "type": "Image",
+    "audienceMultiplier": 1.0,
+    "duration": "1 semaine"
+  },
+  {
+    "id": "fmt_radio_30s",
+    "name": "Spot 30 secondes",
+    "category": "Audio",
+    "supportId": "event-sante",
+    "type": "Audio",
+    "audienceMultiplier": 1.0,
+    "duration": "1 semaine"
+  },
+  {
+    "id": "fmt_radio_60s",
+    "name": "Spot 60 secondes",
+    "category": "Audio",
+    "supportId": "event-sante",
+    "type": "Audio",
+    "audienceMultiplier": 1.2,
+    "duration": "1 semaine"
+  },
+  {
+    "id": "fmt_event_sponsoring",
+    "name": "Sponsoring événement",
+    "category": "Event",
+    "supportId": "event-impresa",
+    "type": "Présence physique",
+    "audienceMultiplier": 1.5
+  }
+]
+  {
+    "id": "format_post_facebook",
+    "name": "Post Sponsorisé Facebook",
+    "supportIds": ["facebook-corsica"],
+    "dimensions": "1200x628px",
+    "description": "Post sponsorisé avec image et CTA"
+  },
+  {
+    "id": "format_story_instagram",
+    "name": "Story Instagram",
+    "supportIds": ["instagram-corsica"],
+    "dimensions": "1080x1920px",
+    "description": "Story vidéo ou image en plein écran (3-5s)"
+  },
+  {
+    "id": "format_affichage_4x3",
+    "name": "Affichage 4x3",
+    "supportIds": ["affichage-ajaccio"],
+    "dimensions": "4000x3000px",
+    "description": "Panneau d'affichage grand format 4x3m"
+  },
+  {
+    "id": "format_spot_radio_30s",
+    "name": "Spot Radio 30s",
+    "supportIds": ["radio-corsica"],
+    "dimensions": "Audio 30s",
+    "description": "Spot publicitaire radio de 30 secondes"
+  },
+  {
+    "id": "format_preroll_youtube",
+    "name": "Pre-roll YouTube 15s",
+    "supportIds": ["youtube-corsica"],
+    "dimensions": "1920x1080",
+    "description": "Vidéo publicitaire avant contenu YouTube (skippable après 5s)"
+  }
+]

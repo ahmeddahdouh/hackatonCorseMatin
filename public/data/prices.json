@@ -1,0 +1,92 @@
+[
+  {
+    "id": "price_corse_matin_demi",
+    "supportId": "corse-matin",
+    "formatId": "format_demi_page_corse_matin",
+    "pricePerUnit": 4200,
+    "currency": "EUR",
+    "minimumQuantity": 1,
+    "unit": "insertion",
+    "description": "Corse-Matin - Demi-Page"
+  },
+  {
+    "id": "price_corsematin_web_habillage",
+    "supportId": "corsematin-web",
+    "formatId": "format_habillage_corsematin_web",
+    "pricePerUnit": 2500,
+    "currency": "EUR",
+    "minimumQuantity": 7,
+    "unit": "insertion",
+    "description": "corsematin.com - Habillage homepage"
+  },
+  {
+    "id": "price_appli_smart_cover",
+    "supportId": "appli-mobile-corsica",
+    "formatId": "format_smart_cover_appli",
+    "pricePerUnit": 3000,
+    "currency": "EUR",
+    "minimumQuantity": 7,
+    "unit": "insertion",
+    "description": "Appli Corsica+ - Smart Cover"
+  },
+  {
+    "id": "price_appli_interstitiel",
+    "supportId": "appli-mobile-corsica",
+    "formatId": "format_interstitiel_appli",
+    "pricePerUnit": 2.5,
+    "currency": "EUR",
+    "minimumQuantity": 10000,
+    "unit": "CPM",
+    "description": "Appli Corsica+ - Interstitiel CPM"
+  },
+  {
+    "id": "price_facebook_post",
+    "supportId": "facebook-corsica",
+    "formatId": "format_post_facebook",
+    "pricePerUnit": 1.2,
+    "currency": "EUR",
+    "minimumQuantity": 5000,
+    "unit": "CPM",
+    "description": "Facebook Corse - Post sponsorisé"
+  },
+  {
+    "id": "price_instagram_story",
+    "supportId": "instagram-corsica",
+    "formatId": "format_story_instagram",
+    "pricePerUnit": 1.8,
+    "currency": "EUR",
+    "minimumQuantity": 5000,
+    "unit": "CPM",
+    "description": "Instagram Corse - Story"
+  },
+  {
+    "id": "price_affichage_4x3",
+    "supportId": "affichage-ajaccio",
+    "formatId": "format_affichage_4x3",
+    "pricePerUnit": 1200,
+    "currency": "EUR",
+    "minimumQuantity": 2,
+    "unit": "insertion",
+    "description": "Affichage 4x3 - Corse-du-Sud (semaine)"
+  },
+  {
+    "id": "price_radio_spot_30s",
+    "supportId": "radio-corsica",
+    "formatId": "format_spot_radio_30s",
+    "pricePerUnit": 450,
+    "currency": "EUR",
+    "minimumQuantity": 5,
+    "unit": "insertion",
+    "description": "Radio Corse - Spot 30s"
+  },
+  {
+    "id": "price_youtube_preroll",
+    "supportId": "youtube-corsica",
+    "formatId": "format_preroll_youtube",
+    "pricePerUnit": 2.5,
+    "currency": "EUR",
+    "minimumQuantity": 10000,
+    "unit": "CPM",
+    "description": "YouTube - Pre-roll 15s"
+  }
+]

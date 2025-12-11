@@ -3,8 +3,9 @@ import Step1Campaign from './Step1Campaign';
 import Step2Objectives from './Step2Objectives';
 import Step3Targets from './Step3Targets';
 import Step4Budget from './Step4Budget';
+import Step5Summary from './Step5Summary';
 
-const steps = ['Campagne', 'Objectifs', 'Cibles', 'Budget'];
+const steps = ['Campagne', 'Objectifs', 'Cibles', 'Budget', 'Résumé'];
 
 export const Wizard = ({ onComplete }) => {
   const [currentStep, setCurrentStep] = useState(0);
@@ -73,6 +74,15 @@ export const Wizard = ({ onComplete }) => {
             onBack={handleBack}
           />
         );
+      case 4:
+        return (
+          <Step5Summary
+            planData={planData}
+            onUpdate={handlePlanUpdate}
+            onComplete={onComplete}
+            onBack={handleBack}
+          />
+        );
       default:
         return null;
     }
@@ -83,6 +93,7 @@ export const Wizard = ({ onComplete }) => {
     1: '🎯 Objectifs',
     2: '👥 Cibles',
     3: '💰 Budget',
+    4: '📋 Résumé',
   };
 
   const progressPercent = ((currentStep + 1) / steps.length) * 100;

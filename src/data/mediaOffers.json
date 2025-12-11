@@ -1,0 +1,362 @@
+{
+  "offers": {
+    "print": [
+      {
+        "id": "print_001",
+        "mediaName": "Corse-Matin",
+        "category": "Quotidien",
+        "placements": [
+          {
+            "id": "p1_1",
+            "placement": "Page 2 (édition régionale)",
+            "format": "1/4 page",
+            "circulation": 28000,
+            "unitPrice": 450,
+            "frequency": "1 parution",
+            "notes": "Visibilité optimale en deuxième page"
+          },
+          {
+            "id": "p1_2",
+            "placement": "Page 5 (actualités)",
+            "format": "1/2 page",
+            "circulation": 28000,
+            "unitPrice": 680,
+            "frequency": "1 parution",
+            "notes": "Bonne exposition dans les actualités"
+          },
+          {
+            "id": "p1_3",
+            "placement": "Couverture intérieure (dos)",
+            "format": "Pleine page",
+            "circulation": 28000,
+            "unitPrice": 1200,
+            "frequency": "1 parution",
+            "notes": "Maximum de visibilité, page de couverture intérieure"
+          },
+          {
+            "id": "p1_4",
+            "placement": "En-tête page 1",
+            "format": "Bandeau (15x6cm)",
+            "circulation": 28000,
+            "unitPrice": 950,
+            "frequency": "1 parution",
+            "notes": "Impact fort sur la première page"
+          }
+        ]
+      },
+      {
+        "id": "print_002",
+        "mediaName": "Femina Corse",
+        "category": "Féminin hebdomadaire",
+        "placements": [
+          {
+            "id": "p2_1",
+            "placement": "Pleine page intérieure",
+            "format": "Pleine page",
+            "circulation": 12000,
+            "unitPrice": 520,
+            "frequency": "1 parution",
+            "notes": "Audience féminine premium 25-54 ans"
+          },
+          {
+            "id": "p2_2",
+            "placement": "1/2 page centrales",
+            "format": "1/2 page",
+            "circulation": 12000,
+            "unitPrice": 350,
+            "frequency": "1 parution",
+            "notes": "Pages centrales à forte visibilité"
+          }
+        ]
+      },
+      {
+        "id": "print_003",
+        "mediaName": "Corse Matin Événements",
+        "category": "Hors-série",
+        "placements": [
+          {
+            "id": "p3_1",
+            "placement": "1/4 page Hors-série",
+            "format": "1/4 page",
+            "circulation": 35000,
+            "unitPrice": 380,
+            "frequency": "Tirage spécial",
+            "notes": "Plus grande audience sur hors-série thématique"
+          }
+        ]
+      }
+    ],
+    "digital": [
+      {
+        "id": "digital_001",
+        "mediaName": "corsematin.fr",
+        "category": "Site information",
+        "placements": [
+          {
+            "id": "d1_1",
+            "placement": "Bandeau en-tête homepage (sticky)",
+            "format": "728x90 ou 970x90",
+            "impressions": 85000,
+            "unitPrice": 850,
+            "frequency": "30 jours",
+            "cpm": 10,
+            "notes": "Suivi utilisateur 24/24, tous les jours"
+          },
+          {
+            "id": "d1_2",
+            "placement": "Sidebar droit (300x250)",
+            "format": "300x250 (MPU)",
+            "impressions": 65000,
+            "unitPrice": 600,
+            "frequency": "30 jours",
+            "cpm": 9.2,
+            "notes": "Très visible sur pages d'actualité"
+          },
+          {
+            "id": "d1_3",
+            "placement": "Interstitiel (pop-up)",
+            "format": "Interstitiel 600x500",
+            "impressions": 120000,
+            "unitPrice": 1200,
+            "frequency": "30 jours",
+            "cpm": 10,
+            "notes": "Haute visibilité mais à utiliser modérément"
+          },
+          {
+            "id": "d1_4",
+            "placement": "Article sponsorisé",
+            "format": "Native advertising",
+            "impressions": 45000,
+            "unitPrice": 1500,
+            "frequency": "30 jours",
+            "cpm": 33.3,
+            "notes": "Contenu natif mélangé aux actualités"
+          }
+        ]
+      },
+      {
+        "id": "digital_002",
+        "mediaName": "La Corse.fr",
+        "category": "Portail général",
+        "placements": [
+          {
+            "id": "d2_1",
+            "placement": "Bandeau accueil",
+            "format": "970x250",
+            "impressions": 42000,
+            "unitPrice": 500,
+            "frequency": "30 jours",
+            "cpm": 11.9,
+            "notes": "Site touristique et événementiel"
+          }
+        ]
+      },
+      {
+        "id": "digital_003",
+        "mediaName": "Newsletter Corse-Matin",
+        "category": "Email marketing",
+        "placements": [
+          {
+            "id": "d3_1",
+            "placement": "En-tête newsletter quotidienne",
+            "format": "Email 600px",
+            "impressions": 28000,
+            "unitPrice": 700,
+            "frequency": "5 envois",
+            "cpm": 25,
+            "notes": "Audience premium, taux d'ouverture 42%"
+          }
+        ]
+      }
+    ],
+    "social": [
+      {
+        "id": "social_001",
+        "mediaName": "Facebook Corse-Matin",
+        "platform": "Facebook",
+        "followers": 145000,
+        "placements": [
+          {
+            "id": "s1_1",
+            "placement": "Carousel Ads (Feed)",
+            "format": "Image 1200x628",
+            "reach": 45000,
+            "impressions": 180000,
+            "unitPrice": 850,
+            "frequency": "7 jours",
+            "cpm": 4.7,
+            "targetAudience": "Tous publics 18-65 ans",
+            "notes": "Engagement fort, ciblage précis"
+          },
+          {
+            "id": "s1_2",
+            "placement": "Video Ads (Feed + Stories)",
+            "format": "Video 1080x1920 ou 1200x628",
+            "reach": 55000,
+            "impressions": 220000,
+            "unitPrice": 1200,
+            "frequency": "7 jours",
+            "cpm": 5.45,
+            "targetAudience": "Tous publics 25-54 ans",
+            "notes": "Taux de vue vidéo élevé"
+          },
+          {
+            "id": "s1_3",
+            "placement": "Sponsored Post (Timeline)",
+            "format": "Native post",
+            "reach": 38000,
+            "impressions": 95000,
+            "unitPrice": 600,
+            "frequency": "3 jours",
+            "cpm": 6.3,
+            "targetAudience": "Fans + amis",
+            "notes": "Intégration organique, bonne résonance"
+          }
+        ]
+      },
+      {
+        "id": "social_002",
+        "mediaName": "Instagram Corse-Matin",
+        "platform": "Instagram",
+        "followers": 89000,
+        "placements": [
+          {
+            "id": "s2_1",
+            "placement": "Sponsored Feed Post",
+            "format": "Image 1080x1350",
+            "reach": 28000,
+            "impressions": 95000,
+            "unitPrice": 750,
+            "frequency": "7 jours",
+            "cpm": 7.89,
+            "targetAudience": "18-45 ans feminin 65%",
+            "notes": "Audience jeune et engagée"
+          },
+          {
+            "id": "s2_2",
+            "placement": "Instagram Stories Ad",
+            "format": "Video/Image 1080x1920",
+            "reach": 35000,
+            "impressions": 140000,
+            "unitPrice": 850,
+            "frequency": "7 jours",
+            "cpm": 6.07,
+            "targetAudience": "Tous publics 18-50 ans",
+            "notes": "Format très engageant, temps limité"
+          }
+        ]
+      },
+      {
+        "id": "social_003",
+        "mediaName": "LinkedIn Corse-Matin",
+        "platform": "LinkedIn",
+        "followers": 32000,
+        "placements": [
+          {
+            "id": "s3_1",
+            "placement": "Sponsored Content",
+            "format": "Native post",
+            "reach": 8500,
+            "impressions": 24000,
+            "unitPrice": 1100,
+            "frequency": "7 jours",
+            "cpm": 45.8,
+            "targetAudience": "Professionnels B2B",
+            "notes": "Audience professionnelle premium"
+          }
+        ]
+      },
+      {
+        "id": "social_004",
+        "mediaName": "TikTok Corse Tendance",
+        "platform": "TikTok",
+        "followers": 156000,
+        "placements": [
+          {
+            "id": "s4_1",
+            "placement": "In-feed Native Ads",
+            "format": "Video 9:16 (1080x1920)",
+            "reach": 120000,
+            "impressions": 480000,
+            "unitPrice": 1500,
+            "frequency": "7 jours",
+            "cpm": 3.13,
+            "targetAudience": "13-35 ans (viral)",
+            "notes": "Meilleur CPM, audience très jeune"
+          }
+        ]
+      }
+    ],
+    "event": [
+      {
+        "id": "event_001",
+        "mediaName": "Festival d'Ajaccio",
+        "category": "Festival culturel",
+        "placements": [
+          {
+            "id": "e1_1",
+            "placement": "Stand Premium",
+            "format": "Espace 3x3m",
+            "expectedVisitors": 25000,
+            "unitPrice": 2500,
+            "frequency": "3 jours",
+            "contactPersons": 5000,
+            "notes": "Espace premium avec électricité et mobilier"
+          },
+          {
+            "id": "e1_2",
+            "placement": "Bandeau d'entrée",
+            "format": "Bâche 5x2m",
+            "expectedVisitors": 25000,
+            "unitPrice": 1800,
+            "frequency": "Tout le festival",
+            "notes": "Visibilité maximale à l'entrée"
+          }
+        ]
+      },
+      {
+        "id": "event_002",
+        "mediaName": "Salon d'Automne Bastia",
+        "category": "Salon B2C",
+        "placements": [
+          {
+            "id": "e2_1",
+            "placement": "Stand standard 2x2m",
+            "format": "Espace expo",
+            "expectedVisitors": 15000,
+            "unitPrice": 1200,
+            "frequency": "2 jours",
+            "contactPersons": 2500,
+            "notes": "Emplacement central, circulation piétonne"
+          }
+        ]
+      },
+      {
+        "id": "event_003",
+        "mediaName": "Conférence Business Corse",
+        "category": "B2B Networking",
+        "placements": [
+          {
+            "id": "e3_1",
+            "placement": "Partenaire Platine",
+            "format": "Sponsoring complet",
+            "expectedVisitors": 400,
+            "unitPrice": 3500,
+            "frequency": "1 jour",
+            "contactPersons": 400,
+            "notes": "Logo sur tous supports, booth VIP"
+          },
+          {
+            "id": "e3_2",
+            "placement": "Pause café sponsorisée",
+            "format": "Branding pause",
+            "expectedVisitors": 400,
+            "unitPrice": 1500,
+            "frequency": "2 pauses",
+            "notes": "Visibilité pendant les pauses"
+          }
+        ]
+      }
+    ]
+  }
+}

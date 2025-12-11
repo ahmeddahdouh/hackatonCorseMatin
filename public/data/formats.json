@@ -220,39 +220,3 @@
     "audienceMultiplier": 1.5
   }
 ]
-  {
-    "id": "format_post_facebook",
-    "name": "Post Sponsorisé Facebook",
-    "supportIds": ["facebook-corsica"],
-    "dimensions": "1200x628px",
-    "description": "Post sponsorisé avec image et CTA"
-  },
-  {
-    "id": "format_story_instagram",
-    "name": "Story Instagram",
-    "supportIds": ["instagram-corsica"],
-    "dimensions": "1080x1920px",
-    "description": "Story vidéo ou image en plein écran (3-5s)"
-  },
-  {
-    "id": "format_affichage_4x3",
-    "name": "Affichage 4x3",
-    "supportIds": ["affichage-ajaccio"],
-    "dimensions": "4000x3000px",
-    "description": "Panneau d'affichage grand format 4x3m"
-  },
-  {
-    "id": "format_spot_radio_30s",
-    "name": "Spot Radio 30s",
-    "supportIds": ["radio-corsica"],
-    "dimensions": "Audio 30s",
-    "description": "Spot publicitaire radio de 30 secondes"
-  },
-  {
-    "id": "format_preroll_youtube",
-    "name": "Pre-roll YouTube 15s",
-    "supportIds": ["youtube-corsica"],
-    "dimensions": "1920x1080",
-    "description": "Vidéo publicitaire avant contenu YouTube (skippable après 5s)"
-  }
-]

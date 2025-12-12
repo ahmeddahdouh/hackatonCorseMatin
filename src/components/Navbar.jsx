@@ -1,7 +1,8 @@
 import React from 'react'
 import { useAuth } from '../context/AuthContext'
+import { Home, BarChart3 } from 'lucide-react'
 
-export const Navbar = ({ onLogoClick, currentPage, onNavigateToDashboard }) => {
+export const Navbar = ({ onLogoClick, currentPage, onNavigateToDashboard, onNavigateToModeSelection }) => {
   const { user, logout } = useAuth();
 
   return (
@@ -12,7 +13,7 @@ export const Navbar = ({ onLogoClick, currentPage, onNavigateToDashboard }) => {
           <button
             onClick={onLogoClick}
             className="flex items-center gap-3 hover:opacity-80 transition-opacity"
-            title="Retour au wizard"
+            title="Retour au menu principal"
           >
             {/* Logo Image Corse-Matin */}
             <img
@@ -26,17 +27,28 @@ export const Navbar = ({ onLogoClick, currentPage, onNavigateToDashboard }) => {
           </button>
 
           {/* Menu centre - Navigation */}
-          <div className="hidden md:flex items-center gap-6">
+          <div className="hidden md:flex items-center gap-3">
+            {onNavigateToModeSelection && (
+              <button
+                onClick={onNavigateToModeSelection}
+                className="flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-lg transition text-corse-noir hover:bg-gray-100"
+                title="Retour au menu principal"
+              >
+                <Home size={16} />
+                Menu
+              </button>
+            )}
             <button
               onClick={onNavigateToDashboard}
-              className={`text-sm font-semibold px-4 py-2 rounded-lg transition ${
+              className={`flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-lg transition ${
                 currentPage === 'dashboard'
                   ? 'bg-corse-rouge text-white'
                   : 'text-corse-noir hover:bg-red-50'
               }`}
               title="Historique des plans"
             >
-              📊 Historique
+              <BarChart3 size={16} />
+              Historique
             </button>
           </div>
 
@@ -45,7 +57,7 @@ export const Navbar = ({ onLogoClick, currentPage, onNavigateToDashboard }) => {
             {user && (
               <div className="hidden sm:flex items-center gap-3 text-sm">
                 <span className="text-corse-gris">
-                  👤 {user.email}
+                  👤 {user.name || user.email}
                 </span>
                 <button
                   onClick={logout}

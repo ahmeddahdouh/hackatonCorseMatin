@@ -31,7 +31,7 @@ export const Dashboard = ({ onCreateNew }) => {
 
   const handlePlanSelect = (plan) => {
     setSelectedPlan(plan);
-    // Ne pas activer showDetails pour rester sur le dashboard avec les stats
+    setShowDetails(true);
   };
 
   const handleViewFullDetails = (plan) => {
@@ -139,10 +139,11 @@ export const Dashboard = ({ onCreateNew }) => {
                   {plans.map((plan) => (
                     <div
                       key={plan.id}
-                      className={`p-4 transition border-l-4 ${
+                      onClick={() => handlePlanSelect(plan)}
+                      className={`p-4 transition border-l-4 cursor-pointer ${
                         selectedPlan?.id === plan.id
                           ? 'bg-red-50 border-corse-rouge'
-                          : 'hover:bg-gray-50 border-transparent'
+                          : 'hover:bg-gray-50 border-transparent hover:border-corse-rouge/50'
                       }`}
                     >
                       <div className="flex justify-between items-start gap-3">
@@ -152,12 +153,9 @@ export const Dashboard = ({ onCreateNew }) => {
                           <p className="text-xs text-corse-gris-light mt-1">{formatDate(plan.createdAt)}</p>
                           <p className="text-sm font-bold text-corse-rouge mt-2">{plan.budget?.toLocaleString()}€</p>
                         </div>
-                        <button
-                          onClick={() => handlePlanSelect(plan)}
-                          className="flex-shrink-0 bg-corse-rouge text-white px-3 py-2 rounded-lg hover:bg-red-700 transition font-semibold text-sm whitespace-nowrap"
-                        >
+                        <div className="flex-shrink-0 bg-corse-rouge text-white px-3 py-2 rounded-lg font-semibold text-sm whitespace-nowrap">
                           Voir →
-                        </button>
+                        </div>
                       </div>
                     </div>
                   ))}

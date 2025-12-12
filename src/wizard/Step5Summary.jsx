@@ -284,6 +284,112 @@ const Step5Summary = ({ planData = {}, onUpdate, onComplete, onBack }) => {
               </div>
             </div>
 
+            {/* Offres Sélectionnées */}
+            {planData.channelDetails && Object.values(planData.channelDetails).some(ch => ch?.selectedOffers?.length > 0) && (
+              <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-red-600">
+                <h3 className="text-xl font-bold mb-5 flex items-center gap-3">
+                  <span className="text-2xl">🎁</span>
+                  <span className="text-gray-800">Offres <span className="text-red-600">Sélectionnées</span></span>
+                </h3>
+                
+                {/* Tableau des offres */}
+                <div className="overflow-x-auto">
+                  <table className="w-full text-sm border-collapse">
+                    <thead>
+                      <tr className="bg-gray-100">
+                        <th className="p-3 text-left font-bold text-gray-700 border-b-2 border-gray-300">Support</th>
+                        <th className="p-3 text-left font-bold text-gray-700 border-b-2 border-gray-300">Placement</th>
+                        <th className="p-3 text-left font-bold text-gray-700 border-b-2 border-gray-300">Canal</th>
+                        <th className="p-3 text-left font-bold text-gray-700 border-b-2 border-gray-300">Format</th>
+                        <th className="p-3 text-right font-bold text-gray-700 border-b-2 border-gray-300">Qté</th>
+                        <th className="p-3 text-right font-bold text-gray-700 border-b-2 border-gray-300">Prix Unit.</th>
+                        <th className="p-3 text-right font-bold text-red-600 border-b-2 border-gray-300">Total</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {Object.entries(planData.channelDetails).map(([channel, details]) => {
+                        const offers = details?.selectedOffers || [];
+                        const channelLabels = {
+                          print: 'Print',
+                          digital: 'Digital',
+                          social: 'Social',
+                          event: 'Event'
+                        };
+                        return offers.map((offer, idx) => (
+                          <tr key={`${channel}-${idx}`} className="border-b border-gray-200 hover:bg-gray-50">
+                            <td className="p-3 font-medium text-gray-800">
+                              {offer.mediaName || offer.name || 'Support'}
+                            </td>
+                            <td className="p-3 text-gray-600">
+                              {offer.placement || offer.type || '-'}
+                            </td>
+                            <td className="p-3">
+                              <span className={`px-2 py-1 rounded text-xs font-semibold ${
+                                channel === 'print' ? 'bg-amber-100 text-amber-800' :
+                                channel === 'digital' ? 'bg-blue-100 text-blue-800' :
+                                channel === 'social' ? 'bg-purple-100 text-purple-800' :
+                                'bg-green-100 text-green-800'
+                              }`}>
+                                {channelLabels[channel]}
+                              </span>
+                            </td>
+                            <td className="p-3 text-gray-600 text-sm">
+                              {offer.format || '-'}
+                            </td>
+                            <td className="p-3 text-right font-medium">
+                              {offer.quantity || 1}
+                            </td>
+                            <td className="p-3 text-right text-gray-600">
+                              {(offer.unitPrice || 0).toLocaleString()}€
+                            </td>
+                            <td className="p-3 text-right font-bold text-red-600">
+                              {(offer.budgetAllocated || offer.budget || 0).toLocaleString()}€
+                            </td>
+                          </tr>
+                        ));
+                      })}
+                    </tbody>
+                    <tfoot>
+                      <tr className="bg-red-600 text-white">
+                        <td colSpan="6" className="p-3 font-bold">
+                          Total des offres sélectionnées
+                        </td>
+                        <td className="p-3 text-right font-bold text-lg">
+                          {Object.values(planData.channelDetails)
+                            .flatMap(ch => ch?.selectedOffers || [])
+                            .reduce((sum, o) => sum + (o.budgetAllocated || o.budget || 0), 0)
+                            .toLocaleString()}€
+                        </td>
+                      </tr>
+                    </tfoot>
+                  </table>
+                </div>
+
+                {/* Résumé par canal */}
+                <div className="mt-6 grid grid-cols-2 md:grid-cols-4 gap-4">
+                  {Object.entries(planData.channelDetails).map(([channel, details]) => {
+                    const offers = details?.selectedOffers || [];
+                    if (offers.length === 0) return null;
+                    const channelLabels = {
+                      print: '📰 Print',
+                      digital: '💻 Digital',
+                      social: '📱 Social',
+                      event: '🎪 Event'
+                    };
+                    const total = offers.reduce((sum, o) => sum + (o.budgetAllocated || o.budget || 0), 0);
+                    return (
+                      <div key={channel} className="bg-gray-50 p-4 rounded-lg text-center">
+                        <p className="text-sm font-bold text-gray-700">{channelLabels[channel]}</p>
+                        <p className="text-2xl font-bold text-red-600 mt-1">{offers.length}</p>
+                        <p className="text-xs text-gray-500">offre(s)</p>
+                        <p className="text-sm font-bold text-gray-800 mt-2">{total.toLocaleString()}€</p>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            )}
+
             {/* Recommandations */}
             <div className="bg-gradient-to-br from-red-50 to-orange-50 rounded-2xl p-8 shadow-lg border-2 border-red-200">
               <h3 className="text-xl font-bold mb-4 flex items-center gap-3">
@@ -304,6 +410,28 @@ const Step5Summary = ({ planData = {}, onUpdate, onComplete, onBack }) => {
                   <span className="text-gray-700 font-medium">Ciblage précis sur {generatedPlan.targets.ageRanges.length} tranche(s) d'âge et {generatedPlan.targets.cspLevels.length} CSP</span>
                 </li>
               </ul>
+            </div>
+
+            {/* Informations Client (pour impression) */}
+            <div className="bg-white rounded-2xl p-8 shadow-lg border-l-4 border-gray-700">
+              <h3 className="text-xl font-bold mb-5 flex items-center gap-3">
+                <span className="text-2xl">👤</span>
+                <span className="text-gray-800">Informations <span className="text-red-600">Client</span></span>
+              </h3>
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <div className="bg-gray-50 rounded-lg p-4">
+                  <p className="text-gray-600 text-xs uppercase tracking-wider font-bold mb-1">Nom Client</p>
+                  <p className="text-lg font-bold text-gray-800">{planData.clientName || 'Non renseigné'}</p>
+                </div>
+                <div className="bg-gray-50 rounded-lg p-4">
+                  <p className="text-gray-600 text-xs uppercase tracking-wider font-bold mb-1">Matricule</p>
+                  <p className="text-lg font-bold text-gray-800">{planData.clientMatricule || 'Non renseigné'}</p>
+                </div>
+                <div className="bg-gray-50 rounded-lg p-4">
+                  <p className="text-gray-600 text-xs uppercase tracking-wider font-bold mb-1">Zone Géographique</p>
+                  <p className="text-lg font-bold text-gray-800">{planData.region === 'corse' ? 'Corse' : planData.region === 'world' ? 'Hors Corse' : 'Non définie'}</p>
+                </div>
+              </div>
             </div>
 
             {/* Boutons Actions */}

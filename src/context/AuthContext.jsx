@@ -1,4 +1,5 @@
 import React, { createContext, useState, useCallback } from 'react';
+import { verifyCredentials, registerUser, emailExists } from '../utils/authService';
 
 export const AuthContext = createContext();
 
@@ -17,9 +18,6 @@ export const AuthProvider = ({ children }) => {
     setAuthError(null);
     
     try {
-      // Simuler une requête API
-      await new Promise(resolve => setTimeout(resolve, 500));
-
       // Validation basique
       if (!email || !password) {
         throw new Error('Email et mot de passe requis');
@@ -29,18 +27,14 @@ export const AuthProvider = ({ children }) => {
         throw new Error('Email invalide');
       }
 
-      if (password.length < 6) {
-        throw new Error('Le mot de passe doit contenir au moins 6 caractères');
+      // Vérifier les identifiants via le service d'authentification
+      const result = await verifyCredentials(email, password);
+      
+      if (!result.success) {
+        throw new Error(result.error || 'Email ou mot de passe incorrect');
       }
 
-      // Créer un utilisateur simulé
-      const userData = {
-        id: Math.random().toString(36).substr(2, 9),
-        email,
-        name: email.split('@')[0],
-        createdAt: new Date().toISOString(),
-      };
-
+      const userData = result.user;
       setUser(userData);
       localStorage.setItem('user', JSON.stringify(userData));
       return userData;
@@ -57,9 +51,6 @@ export const AuthProvider = ({ children }) => {
     setAuthError(null);
 
     try {
-      // Simuler une requête API
-      await new Promise(resolve => setTimeout(resolve, 500));
-
       // Validation
       if (!email || !password || !confirmPassword) {
         throw new Error('Tous les champs sont requis');
@@ -77,24 +68,14 @@ export const AuthProvider = ({ children }) => {
         throw new Error('Les mots de passe ne correspondent pas');
       }
 
-      // Vérifier si l'utilisateur existe déjà (simulé)
-      const existingUsers = JSON.parse(localStorage.getItem('registeredUsers') || '[]');
-      if (existingUsers.find(u => u.email === email)) {
-        throw new Error('Cet email est déjà utilisé');
+      // Enregistrer via le service d'authentification
+      const result = await registerUser(email, password);
+      
+      if (!result.success) {
+        throw new Error(result.error || 'Erreur lors de l\'inscription');
       }
 
-      // Créer un nouvel utilisateur
-      const userData = {
-        id: Math.random().toString(36).substr(2, 9),
-        email,
-        name: email.split('@')[0],
-        createdAt: new Date().toISOString(),
-      };
-
-      // Sauvegarder dans la liste des utilisateurs enregistrés
-      existingUsers.push({ email, password });
-      localStorage.setItem('registeredUsers', JSON.stringify(existingUsers));
-
+      const userData = result.user;
       setUser(userData);
       localStorage.setItem('user', JSON.stringify(userData));
       return userData;

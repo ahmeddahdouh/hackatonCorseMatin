@@ -1,0 +1,31 @@
+{
+  "users": [
+    {
+      "id": "admin001",
+      "email": "admin@corsematin.fr",
+      "password": "admin123",
+      "name": "Administrateur",
+      "role": "admin",
+      "matricule": "CM-ADM-001",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "user001",
+      "email": "commercial@corsematin.fr",
+      "password": "commercial123",
+      "name": "Jean Commercial",
+      "role": "commercial",
+      "matricule": "CM-COM-001",
+      "createdAt": "2024-06-15T10:30:00.000Z"
+    },
+    {
+      "id": "user002",
+      "email": "marketing@corsematin.fr",
+      "password": "marketing123",
+      "name": "Marie Marketing",
+      "role": "marketing",
+      "matricule": "CM-MKT-001",
+      "createdAt": "2024-08-20T14:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,2510 @@
+-----------------AUDIENCE-----------------------------------
+{
+  "audiences": [
+    {
+      "categorie": "Cible Ensemble",
+      "modalite": "Total",
+      "CibleEnsemble": 54422000,
+      "Femina": 3339000,
+      "Diverto": 197000,
+      "CorseMatin": 159000,
+      "LaProvence": 35000,
+      "CorseMatinDimanche": 4896000,
+      "LaProvenceDimanche": 196000
+    },
+    {
+      "categorie": "Sexe",
+      "modalite": "Homme",
+      "CibleEnsemble": 26117000,
+      "Femina": 1117000,
+      "Diverto": 82000,
+      "CorseMatin": 70000,
+      "LaProvence": 13000,
+      "CorseMatinDimanche": 2349000,
+      "LaProvenceDimanche": 109000
+    },
+    {
+      "categorie": "Sexe",
+      "modalite": "Femme",
+      "CibleEnsemble": 28305000,
+      "Femina": 2222000,
+      "Diverto": 114000,
+      "CorseMatin": 89000,
+      "LaProvence": 22000,
+      "CorseMatinDimanche": 2547000,
+      "LaProvenceDimanche": 87000
+    },
+
+    {
+      "categorie": "Age",
+      "modalite": "15-24",
+      "CibleEnsemble": 7754000,
+      "Femina": 107000,
+      "Diverto": 3000,
+      "CorseMatin": 3000,
+      "LaProvence": 2000,
+      "CorseMatinDimanche": 147000,
+      "LaProvenceDimanche": 6000
+    },
+    {
+      "categorie": "Age",
+      "modalite": "25-34",
+      "CibleEnsemble": 7350000,
+      "Femina": 137000,
+      "Diverto": 7000,
+      "CorseMatin": 7000,
+      "LaProvence": 0,
+      "CorseMatinDimanche": 124000,
+      "LaProvenceDimanche": 6000
+    },
+    {
+      "categorie": "Age",
+      "modalite": "35-49",
+      "CibleEnsemble": 12158000,
+      "Femina": 322000,
+      "Diverto": 18000,
+      "CorseMatin": 13000,
+      "LaProvence": 6000,
+      "CorseMatinDimanche": 379000,
+      "LaProvenceDimanche": 21000
+    },
+    {
+      "categorie": "Age",
+      "modalite": "50-64",
+      "CibleEnsemble": 12705000,
+      "Femina": 806000,
+      "Diverto": 50000,
+      "CorseMatin": 31000,
+      "LaProvence": 15000,
+      "CorseMatinDimanche": 1130000,
+      "LaProvenceDimanche": 38000
+    },
+    {
+      "categorie": "Age",
+      "modalite": "65+",
+      "CibleEnsemble": 14455000,
+      "Femina": 1968000,
+      "Diverto": 119000,
+      "CorseMatin": 104000,
+      "LaProvence": 13000,
+      "CorseMatinDimanche": 3116000,
+      "LaProvenceDimanche": 125000
+    },
+
+    {
+      "categorie": "NiveauEducation",
+      "modalite": "Ecole primaire",
+      "CibleEnsemble": 1841000,
+      "Femina": 221000,
+      "Diverto": 9000,
+      "CorseMatin": 9000,
+      "LaProvence": 0,
+      "CorseMatinDimanche": 375000,
+      "LaProvenceDimanche": 10000
+    },
+    {
+      "categorie": "NiveauEducation",
+      "modalite": "College",
+      "CibleEnsemble": 10295000,
+      "Femina": 1028000,
+      "Diverto": 48000,
+      "CorseMatin": 43000,
+      "LaProvence": 2000,
+      "CorseMatinDimanche": 1564000,
+      "LaProvenceDimanche": 43000
+    },
+    {
+      "categorie": "NiveauEducation",
+      "modalite": "Lycee",
+      "CibleEnsemble": 13524000,
+      "Femina": 892000,
+      "Diverto": 68000,
+      "CorseMatin": 53000,
+      "LaProvence": 16000,
+      "CorseMatinDimanche": 1258000,
+      "LaProvenceDimanche": 54000
+    },
+    {
+      "categorie": "NiveauEducation",
+      "modalite": "Superieur",
+      "CibleEnsemble": 28762000,
+      "Femina": 1198000,
+      "Diverto": 72000,
+      "CorseMatin": 54000,
+      "LaProvence": 18000,
+      "CorseMatinDimanche": 1700000,
+      "LaProvenceDimanche": 89000
+    },
+
+    {
+      "categorie": "Activité",
+      "modalite": "Actif",
+      "CibleEnsemble": 30522000,
+      "Femina": 1020000,
+      "Diverto": 55000,
+      "CorseMatin": 46000,
+      "LaProvence": 11000,
+      "CorseMatinDimanche": 1316000,
+      "LaProvenceDimanche": 47000
+    },
+    {
+      "categorie": "Activité",
+      "modalite": "Inactif",
+      "CibleEnsemble": 23900000,
+      "Femina": 2319000,
+      "Diverto": 141000,
+      "CorseMatin": 113000,
+      "LaProvence": 24000,
+      "CorseMatinDimanche": 3580000,
+      "LaProvenceDimanche": 149000
+    },
+
+    {
+      "categorie": "ResponsableAchats",
+      "modalite": "Oui",
+      "CibleEnsemble": 43026000,
+      "Femina": 2918000,
+      "Diverto": 163000,
+      "CorseMatin": 128000,
+      "LaProvence": 30000,
+      "CorseMatinDimanche": 4101000,
+      "LaProvenceDimanche": 158000
+    },
+    {
+      "categorie": "ResponsableAchats",
+      "modalite": "Non",
+      "CibleEnsemble": 11396000,
+      "Femina": 421000,
+      "Diverto": 34000,
+      "CorseMatin": 30000,
+      "LaProvence": 5000,
+      "CorseMatinDimanche": 795000,
+      "LaProvenceDimanche": 38000
+    },
+
+    {
+      "categorie": "EnfantsMoins15",
+      "modalite": "Oui",
+      "CibleEnsemble": 14514000,
+      "Femina": 364000,
+      "Diverto": 30000,
+      "CorseMatin": 26000,
+      "LaProvence": 5000,
+      "CorseMatinDimanche": 376000,
+      "LaProvenceDimanche": 23000
+    },
+    {
+      "categorie": "EnfantsMoins15",
+      "modalite": "Non",
+      "CibleEnsemble": 39908000,
+      "Femina": 2975000,
+      "Diverto": 167000,
+      "CorseMatin": 133000,
+      "LaProvence": 30000,
+      "CorseMatinDimanche": 4520000,
+      "LaProvenceDimanche": 173000
+    },
+
+    {
+      "categorie": "Habitat",
+      "modalite": "Communes rurales",
+      "CibleEnsemble": 11788000,
+      "Femina": 778000,
+      "Diverto": 17000,
+      "CorseMatin": 7000,
+      "LaProvence": 7000,
+      "CorseMatinDimanche": 1243000,
+      "LaProvenceDimanche": 19000
+    },
+    {
+      "categorie": "Habitat",
+      "modalite": "Agglo<20k",
+      "CibleEnsemble": 9831000,
+      "Femina": 593000,
+      "Diverto": 34000,
+      "CorseMatin": 20000,
+      "LaProvence": 14000,
+      "CorseMatinDimanche": 1112000,
+      "LaProvenceDimanche": 36000
+    },
+    {
+      "categorie": "Habitat",
+      "modalite": "Agglo20k-100k",
+      "CibleEnsemble": 7468000,
+      "Femina": 631000,
+      "Diverto": 23000,
+      "CorseMatin": 9000,
+      "LaProvence": 11000,
+      "CorseMatinDimanche": 878000,
+      "LaProvenceDimanche": 22000
+    },
+    {
+      "categorie": "Habitat",
+      "modalite": "Agglo>100k",
+      "CibleEnsemble": 16416000,
+      "Femina": 1246000,
+      "Diverto": 123000,
+      "CorseMatin": 123000,
+      "LaProvence": 0,
+      "CorseMatinDimanche": 1609000,
+      "LaProvenceDimanche": 119000
+    },
+    {
+      "categorie": "Habitat",
+      "modalite": "Agglo Paris",
+      "CibleEnsemble": 8920000,
+      "Femina": 92000,
+      "Diverto": 0,
+      "CorseMatin": 0,
+      "LaProvence": 3000,
+      "CorseMatinDimanche": 55000,
+      "LaProvenceDimanche": 0
+    }
+  ]
+}
+
+
+
+{
+  "audience_Diverto": [
+    {
+      "categorie": "Ensemble",
+      "modalite": "ENSEMBLE",
+      "ensemble": { "milliers": 5335000, "structure": 100.0, "penetration": 9.8 },
+      "hommes":  { "milliers": 2545000, "structure": 100.0, "penetration": 9.7 },
+      "femmes":  { "milliers": 2790000, "structure": 100.0, "penetration": 9.9 },
+      "csp_plus": { "milliers": 888000, "structure": 100.0, "penetration": 4.4 }
+    },
+
+    {
+      "categorie": "Sexe",
+      "modalite": "Femme",
+      "ensemble": { "milliers": 2790000, "structure": 52.3, "penetration": 9.9 },
+      "hommes":  { "milliers": null, "structure": null, "penetration": null },
+      "femmes":  { "milliers": 2790000, "structure": 100.0, "penetration": 9.9 },
+      "csp_plus": { "milliers": 371000, "structure": 41.8, "penetration": 3.8 }
+    },
+    {
+      "categorie": "Sexe",
+      "modalite": "Homme",
+      "ensemble": { "milliers": 2545000, "structure": 47.7, "penetration": 9.7 },
+      "hommes":  { "milliers": 2545000, "structure": 100.0, "penetration": 9.7 },
+      "femmes":  { "milliers": null, "structure": null, "penetration": null },
+      "csp_plus": { "milliers": 517000, "structure": 58.2, "penetration": 4.9 }
+    },
+
+    {
+      "categorie": "Age",
+      "modalite": "15-24 ans",
+      "ensemble": { "milliers": 231000, "structure": 4.3, "penetration": 3.0 },
+      "hommes":  { "milliers": 142000, "structure": 5.6, "penetration": 3.6 },
+      "femmes":  { "milliers": 89000, "structure": 3.2, "penetration": 2.4 },
+      "csp_plus": { "milliers": 92000, "structure": 10.3, "penetration": 2.9 }
+    },
+    {
+      "categorie": "Age",
+      "modalite": "25-34 ans",
+      "ensemble": { "milliers": 169000, "structure": 3.2, "penetration": 2.3 },
+      "hommes":  { "milliers": 69000, "structure": 2.7, "penetration": 1.9 },
+      "femmes":  { "milliers": 101000, "structure": 3.6, "penetration": 2.7 },
+      "csp_plus": { "milliers": 66000, "structure": 7.4, "penetration": 1.9 }
+    },
+    {
+      "categorie": "Age",
+      "modalite": "35-49 ans",
+      "ensemble": { "milliers": 471000, "structure": 8.8, "penetration": 3.9 },
+      "hommes":  { "milliers": 244000, "structure": 9.6, "penetration": 4.1 },
+      "femmes":  { "milliers": 227000, "structure": 8.1, "penetration": 3.6 },
+      "csp_plus": { "milliers": 223000, "structure": 25.2, "penetration": 3.2 }
+    },
+    {
+      "categorie": "Age",
+      "modalite": "50-59 ans",
+      "ensemble": { "milliers": 1196000, "structure": 22.4, "penetration": 9.4 },
+      "hommes":  { "milliers": 588000, "structure": 23.1, "penetration": 9.5 },
+      "femmes":  { "milliers": 609000, "structure": 21.8, "penetration": 9.4 },
+      "csp_plus": { "milliers": 421000, "structure": 47.4, "penetration": 7.3 }
+    },
+    {
+      "categorie": "Age",
+      "modalite": "60 ans et plus",
+      "ensemble": { "milliers": 3267000, "structure": 61.2, "penetration": 22.6 },
+      "hommes":  { "milliers": 1502000, "structure": 59.0, "penetration": 23.5 },
+      "femmes":  { "milliers": 1765000, "structure": 63.3, "penetration": 21.9 },
+      "csp_plus": { "milliers": 86000, "structure": 9.7, "penetration": 9.8 }
+    },
+
+    {
+      "categorie": "PCS",
+      "modalite": "Affaires et Cadres",
+      "ensemble": { "milliers": 252000, "structure": 4.7, "penetration": 3.8 },
+      "hommes":  { "milliers": 129000, "structure": 5.1, "penetration": 3.4 },
+      "femmes":  { "milliers": 122000, "structure": 4.4, "penetration": 4.3 },
+      "csp_plus": { "milliers": 224000, "structure": 25.2, "penetration": 3.6 }
+    },
+    {
+      "categorie": "PCS",
+      "modalite": "Agriculteurs",
+      "ensemble": { "milliers": 51000, "structure": 0.9, "penetration": 11.5 },
+      "hommes":  { "milliers": 42000, "structure": 1.7, "penetration": 15.7 },
+      "femmes":  { "milliers": 8000, "structure": 0.3, "penetration": 4.8 },
+      "csp_plus": { "milliers": null, "structure": null, "penetration": null }
+    },
+    {
+      "categorie": "PCS",
+      "modalite": "Autres inactifs",
+      "ensemble": { "milliers": 482000, "structure": 9.0, "penetration": 5.3 },
+      "hommes":  { "milliers": 205000, "structure": 8.0, "penetration": 5.7 },
+      "femmes":  { "milliers": 277000, "structure": 9.9, "penetration": 5.0 },
+      "csp_plus": { "milliers": 108000, "structure": 12.2, "penetration": 3.5 }
+    },
+    {
+      "categorie": "PCS",
+      "modalite": "Employés",
+      "ensemble": { "milliers": 478000, "structure": 9.0, "penetration": 5.9 },
+      "hommes":  { "milliers": 114000, "structure": 4.5, "penetration": 4.9 },
+      "femmes":  { "milliers": 364000, "structure": 13.1, "penetration": 6.3 },
+      "csp_plus": { "milliers": 75000, "structure": 8.5, "penetration": 5.1 }
+    },
+    {
+      "categorie": "PCS",
+      "modalite": "Ouvriers",
+      "ensemble": { "milliers": 301000, "structure": 5.6, "penetration": 5.1 },
+      "hommes":  { "milliers": 243000, "structure": 9.6, "penetration": 5.4 },
+      "femmes":  { "milliers": 57000, "structure": 2.1, "penetration": 4.2 },
+      "csp_plus": { "milliers": 11000, "structure": 1.3, "penetration": 1.9 }
+    },
+    {
+      "categorie": "PCS",
+      "modalite": "Petits patrons",
+      "ensemble": { "milliers": 94000, "structure": 1.8, "penetration": 4.9 },
+      "hommes":  { "milliers": 68000, "structure": 2.7, "penetration": 5.4 },
+      "femmes":  { "milliers": 26000, "structure": 0.9, "penetration": 4.0 },
+      "csp_plus": { "milliers": 90000, "structure": 10.1, "penetration": 5.2 }
+    },
+    {
+      "categorie": "PCS",
+      "modalite": "Professions intermédiaires",
+      "ensemble": { "milliers": 359000, "structure": 6.7, "penetration": 4.8 },
+      "hommes":  { "milliers": 189000, "structure": 7.4, "penetration": 5.2 },
+      "femmes":  { "milliers": 170000, "structure": 6.1, "penetration": 4.5 },
+      "csp_plus": { "milliers": 307000, "structure": 34.5, "penetration": 4.7 }
+    },
+    {
+      "categorie": "PCS",
+      "modalite": "Retraités",
+      "ensemble": { "milliers": 3319000, "structure": 62.2, "penetration": 22.2 },
+      "hommes":  { "milliers": 1554000, "structure": 61.1, "penetration": 22.9 },
+      "femmes":  { "milliers": 1765000, "structure": 63.3, "penetration": 21.6 },
+      "csp_plus": { "milliers": 73000, "structure": 8.2, "penetration": 11.3 }
+    },
+
+    {
+      "categorie": "Habitat",
+      "modalite": "Agglo +100 000 hab",
+      "ensemble": { "milliers": 1691000, "structure": 31.7, "penetration": 10.3 },
+      "hommes":  { "milliers": 814000, "structure": 32.0, "penetration": 10.4 },
+      "femmes":  { "milliers": 877000, "structure": 31.4, "penetration": 10.2 },
+      "csp_plus": { "milliers": 343000, "structure": 38.6, "penetration": 5.4 }
+    },
+    {
+      "categorie": "Habitat",
+      "modalite": "Agglo 20 000 à 100 000 hab",
+      "ensemble": { "milliers": 966000, "structure": 18.1, "penetration": 12.9 },
+      "hommes":  { "milliers": 459000, "structure": 18.0, "penetration": 12.4 },
+      "femmes":  { "milliers": 507000, "structure": 18.2, "penetration": 13.3 },
+      "csp_plus": { "milliers": 146000, "structure": 16.4, "penetration": 6.1 }
+    },
+    {
+      "categorie": "Habitat",
+      "modalite": "Agglo -20 000 hab",
+      "ensemble": { "milliers": 1182000, "structure": 22.2, "penetration": 12.0 },
+      "hommes":  { "milliers": 575000, "structure": 22.6, "penetration": 12.2 },
+      "femmes":  { "milliers": 607000, "structure": 21.8, "penetration": 11.8 },
+      "csp_plus": { "milliers": 165000, "structure": 18.5, "penetration": 5.3 }
+    },
+    {
+      "categorie": "Habitat",
+      "modalite": "Agglo Paris",
+      "ensemble": { "milliers": 68000, "structure": 1.3, "penetration": 0.8 },
+      "hommes":  { "milliers": 35000, "structure": 1.4, "penetration": 0.8 },
+      "femmes":  { "milliers": 32000, "structure": 1.2, "penetration": 0.7 },
+      "csp_plus": { "milliers": 50000, "structure": 5.6, "penetration": 1.1 }
+    },
+    {
+      "categorie": "Habitat",
+      "modalite": "Communes rurales",
+      "ensemble": { "milliers": 1428000, "structure": 26.8, "penetration": 12.2 },
+      "hommes":  { "milliers": 662000, "structure": 26.0, "penetration": 11.7 },
+      "femmes":  { "milliers": 767000, "structure": 27.5, "penetration": 12.6 },
+      "csp_plus": { "milliers": 186000, "structure": 20.9, "penetration": 5.0 }
+    }
+  ]
+}
+
+
+
+
+
+{
+  "audience_corse_matin": [
+    {
+      "categorie": "Cible Ensemble",
+      "modalite": "ENSEMBLE",
+      "cible_ensemble": 53665000,
+      "corse_matin": 147000,
+      "structure_corse_matin": null,
+      "indice_corse_matin": null
+    },
+
+    {
+      "categorie": "Sexe",
+      "modalite": "Homme",
+      "cible_ensemble": 25693000,
+      "corse_matin": 66000,
+      "structure_corse_matin": 44.89795918,
+      "indice_corse_matin": null
+    },
+    {
+      "categorie": "Sexe",
+      "modalite": "Femme",
+      "cible_ensemble": 27972000,
+      "corse_matin": 81000,
+      "structure_corse_matin": 55.10204082,
+      "indice_corse_matin": null
+    },
+
+    {
+      "categorie": "Age (5 classes)",
+      "modalite": "15 à 24 ans",
+      "cible_ensemble": 7673000,
+      "corse_matin": 5000,
+      "structure_corse_matin": 5.0,
+      "indice_corse_matin": 3.355704698
+    },
+    {
+      "categorie": "Age (5 classes)",
+      "modalite": "25 à 34 ans",
+      "cible_ensemble": 7255000,
+      "corse_matin": 19000,
+      "structure_corse_matin": 19.0,
+      "indice_corse_matin": 12.75167785
+    },
+    {
+      "categorie": "Age (5 classes)",
+      "modalite": "35 à 49 ans",
+      "cible_ensemble": 12135000,
+      "corse_matin": 33000,
+      "structure_corse_matin": 33.0,
+      "indice_corse_matin": 22.14765101
+    },
+    {
+      "categorie": "Age (5 classes)",
+      "modalite": "50 à 64 ans",
+      "cible_ensemble": 12617000,
+      "corse_matin": 36000,
+      "structure_corse_matin": 36.0,
+      "indice_corse_matin": 24.16107383
+    },
+    {
+      "categorie": "Age (5 classes)",
+      "modalite": "65 ans ou +",
+      "cible_ensemble": 13984000,
+      "corse_matin": 56000,
+      "structure_corse_matin": 56.0,
+      "indice_corse_matin": 37.58389262
+    },
+
+    {
+      "categorie": "Statut activité",
+      "modalite": "Cible Actifs",
+      "cible_ensemble": 29222000,
+      "corse_matin": 72000,
+      "structure_corse_matin": 48.97959184,
+      "indice_corse_matin": 149.0
+    },
+    {
+      "categorie": "Statut activité",
+      "modalite": "Cible Inactifs",
+      "cible_ensemble": 24443000,
+      "corse_matin": 75000,
+      "structure_corse_matin": 51.02040816,
+      "indice_corse_matin": null
+    },
+
+    {
+      "categorie": "PCS Individu (8 classes)",
+      "modalite": "Agriculteurs exploitants",
+      "cible_ensemble": 366000,
+      "corse_matin": 1000,
+      "structure_corse_matin": 1.0,
+      "indice_corse_matin": 0.675675676
+    },
+    {
+      "categorie": "PCS Individu (8 classes)",
+      "modalite": "Artisans, commerçants",
+      "cible_ensemble": 1800000,
+      "corse_matin": 6000,
+      "structure_corse_matin": 6.0,
+      "indice_corse_matin": 4.054054054
+    },
+    {
+      "categorie": "PCS Individu (8 classes)",
+      "modalite": "Chefs d'entreprises, cadres et professions intellectuelles supérieures",
+      "cible_ensemble": 6034000,
+      "corse_matin": 15000,
+      "structure_corse_matin": 15.0,
+      "indice_corse_matin": 10.13513514
+    },
+    {
+      "categorie": "PCS Individu (8 classes)",
+      "modalite": "Professions intermédiaires",
+      "cible_ensemble": 7534000,
+      "corse_matin": 11000,
+      "structure_corse_matin": 11.0,
+      "indice_corse_matin": 7.432432432
+    },
+    {
+      "categorie": "PCS Individu (8 classes)",
+      "modalite": "Employés",
+      "cible_ensemble": 7748000,
+      "corse_matin": 26000,
+      "structure_corse_matin": 26.0,
+      "indice_corse_matin": 17.56756757
+    },
+    {
+      "categorie": "PCS Individu (8 classes)",
+      "modalite": "Ouvriers",
+      "cible_ensemble": 5739000,
+      "corse_matin": 13000,
+      "structure_corse_matin": 13.0,
+      "indice_corse_matin": 8.783783784
+    },
+    {
+      "categorie": "PCS Individu (8 classes)",
+      "modalite": "Retraités",
+      "cible_ensemble": 14371000,
+      "corse_matin": 50000,
+      "structure_corse_matin": 50.0,
+      "indice_corse_matin": 33.78378378
+    },
+    {
+      "categorie": "PCS Individu (8 classes)",
+      "modalite": "Inactifs",
+      "cible_ensemble": 10073000,
+      "corse_matin": 26000,
+      "structure_corse_matin": 26.0,
+      "indice_corse_matin": 17.56756757
+    },
+    {
+      "categorie": "PCS Individu (8 classes)",
+      "modalite": "(G) CSP+",
+      "cible_ensemble": 15369000,
+      "corse_matin": 32000,
+      "structure_corse_matin": 21.76870748,
+      "indice_corse_matin": 148.0
+    },
+
+    {
+      "categorie": "REGIONS (13)",
+      "modalite": "Corse",
+      "cible_ensemble": 293000,
+      "corse_matin": 124000,
+      "structure_corse_matin": null,
+      "indice_corse_matin": null
+    },
+
+    {
+      "categorie": "Départements de résidence",
+      "modalite": "20 Corse",
+      "cible_ensemble": 293000,
+      "corse_matin": 124000,
+      "structure_corse_matin": null,
+      "indice_corse_matin": null
+    },
+
+    {
+      "categorie": "Département de lieux de vie",
+      "modalite": "20 - CORSE",
+      "cible_ensemble": 391000,
+      "corse_matin": 42000,
+      "structure_corse_matin": null,
+      "indice_corse_matin": null
+    },
+
+    {
+      "categorie": "Zones de diffusion",
+      "modalite": "GROUPE PROVENCE",
+      "cible_ensemble": 2573000,
+      "corse_matin": 129000,
+      "structure_corse_matin": null,
+      "indice_corse_matin": null
+    },
+    {
+      "categorie": "Zones de diffusion",
+      "modalite": "LA PROVENCE",
+      "cible_ensemble": 2281000,
+      "corse_matin": 5000,
+      "structure_corse_matin": null,
+      "indice_corse_matin": null
+    }
+  ]
+}
+
+
+
+{
+  "audience_femina": [
+    {
+      "categorie": "Ensemble",
+      "modalite": "ENSEMBLE",
+      "ensemble": { "milliers": 3277000, "structure": 100.0, "penetration": 6.0 },
+      "hommes":   { "milliers": 1091000, "structure": 100.0, "penetration": 4.2 },
+      "femmes":   { "milliers": 2186000, "structure": 100.0, "penetration": 7.7 },
+      "csp_plus": { "milliers": 567000, "structure": 100.0, "penetration": 2.8 }
+    },
+
+    {
+      "categorie": "Sexe",
+      "modalite": "Femme",
+      "ensemble": { "milliers": 2186000, "structure": 66.7, "penetration": 7.7 },
+      "hommes":   { "milliers": null, "structure": null, "penetration": null },
+      "femmes":   { "milliers": 2186000, "structure": 100.0, "penetration": 7.7 },
+      "csp_plus": { "milliers": 364000, "structure": 64.1, "penetration": 3.7 }
+    },
+    {
+      "categorie": "Sexe",
+      "modalite": "Homme",
+      "ensemble": { "milliers": 1091000, "structure": 33.3, "penetration": 4.2 },
+      "hommes":   { "milliers": 1091000, "structure": 100.0, "penetration": 4.2 },
+      "femmes":   { "milliers": null, "structure": null, "penetration": null },
+      "csp_plus": { "milliers": 204000, "structure": 35.9, "penetration": 1.9 }
+    },
+
+    {
+      "categorie": "Age",
+      "modalite": "15 à 24 ans",
+      "ensemble": { "milliers": 121000, "structure": 3.7, "penetration": 1.6 },
+      "hommes":   { "milliers": 34000, "structure": 3.1, "penetration": 0.9 },
+      "femmes":   { "milliers": 87000, "structure": 4.0, "penetration": 2.3 },
+      "csp_plus": { "milliers": 36000, "structure": 6.3, "penetration": 1.1 }
+    },
+    {
+      "categorie": "Age",
+      "modalite": "25 à 34 ans",
+      "ensemble": { "milliers": 124000, "structure": 3.8, "penetration": 1.7 },
+      "hommes":   { "milliers": 41000, "structure": 3.8, "penetration": 1.1 },
+      "femmes":   { "milliers": 83000, "structure": 3.8, "penetration": 2.2 },
+      "csp_plus": { "milliers": 57000, "structure": 10.1, "penetration": 1.7 }
+    },
+    {
+      "categorie": "Age",
+      "modalite": "35 à 49 ans",
+      "ensemble": { "milliers": 302000, "structure": 9.2, "penetration": 2.5 },
+      "hommes":   { "milliers": 89000, "structure": 8.2, "penetration": 1.5 },
+      "femmes":   { "milliers": 213000, "structure": 9.7, "penetration": 3.4 },
+      "csp_plus": { "milliers": 135000, "structure": 23.8, "penetration": 1.9 }
+    },
+    {
+      "categorie": "Age",
+      "modalite": "50 à 59 ans",
+      "ensemble": { "milliers": 731000, "structure": 22.3, "penetration": 5.7 },
+      "hommes":   { "milliers": 195000, "structure": 17.8, "penetration": 3.1 },
+      "femmes":   { "milliers": 536000, "structure": 24.5, "penetration": 8.2 },
+      "csp_plus": { "milliers": 280000, "structure": 49.3, "penetration": 4.9 }
+    },
+    {
+      "categorie": "Age",
+      "modalite": "60 ans et plus",
+      "ensemble": { "milliers": 1998000, "structure": 61.0, "penetration": 13.8 },
+      "hommes":   { "milliers": 732000, "structure": 67.1, "penetration": 11.4 },
+      "femmes":   { "milliers": 1266000, "structure": 57.9, "penetration": 15.7 },
+      "csp_plus": { "milliers": 59000, "structure": 10.4, "penetration": 6.7 }
+    },
+
+    {
+      "categorie": "PCS-individu",
+      "modalite": "Affaires et Cadres",
+      "ensemble": { "milliers": 169000, "structure": 5.1, "penetration": 2.5 },
+      "hommes":   { "milliers": 70000, "structure": 6.4, "penetration": 1.9 },
+      "femmes":   { "milliers": 99000, "structure": 4.5, "penetration": 3.5 },
+      "csp_plus": { "milliers": 148000, "structure": 26.2, "penetration": 2.4 }
+    },
+    {
+      "categorie": "PCS-individu",
+      "modalite": "Agriculteurs",
+      "ensemble": { "milliers": 19000, "structure": 0.6, "penetration": 4.3 },
+      "hommes":   { "milliers": 6000, "structure": 0.6, "penetration": 2.3 },
+      "femmes":   { "milliers": 12000, "structure": 0.6, "penetration": 7.3 },
+      "csp_plus": { "milliers": null, "structure": null, "penetration": null }
+    },
+    {
+      "categorie": "PCS-individu",
+      "modalite": "Autres inactifs",
+      "ensemble": { "milliers": 316000, "structure": 9.7, "penetration": 3.5 },
+      "hommes":   { "milliers": 60000, "structure": 5.5, "penetration": 1.7 },
+      "femmes":   { "milliers": 256000, "structure": 11.7, "penetration": 4.6 },
+      "csp_plus": { "milliers": 77000, "structure": 13.5, "penetration": 2.5 }
+    },
+    {
+      "categorie": "PCS-individu",
+      "modalite": "Employés",
+      "ensemble": { "milliers": 356000, "structure": 10.9, "penetration": 4.4 },
+      "hommes":   { "milliers": 46000, "structure": 4.2, "penetration": 2.0 },
+      "femmes":   { "milliers": 310000, "structure": 14.2, "penetration": 5.4 },
+      "csp_plus": { "milliers": 50000, "structure": 8.8, "penetration": 3.4 }
+    },
+    {
+      "categorie": "PCS-individu",
+      "modalite": "Ouvriers",
+      "ensemble": { "milliers": 131000, "structure": 4.0, "penetration": 2.2 },
+      "hommes":   { "milliers": 91000, "structure": 8.4, "penetration": 2.0 },
+      "femmes":   { "milliers": 39000, "structure": 1.8, "penetration": 2.9 },
+      "csp_plus": { "milliers": 3000, "structure": 0.6, "penetration": 0.5 }
+    },
+    {
+      "categorie": "PCS-individu",
+      "modalite": "Petits patrons",
+      "ensemble": { "milliers": 42000, "structure": 1.3, "penetration": 2.2 },
+      "hommes":   { "milliers": 11000, "structure": 1.0, "penetration": 0.9 },
+      "femmes":   { "milliers": 31000, "structure": 1.4, "penetration": 4.7 },
+      "csp_plus": { "milliers": 39000, "structure": 7.0, "penetration": 2.3 }
+    },
+    {
+      "categorie": "PCS-individu",
+      "modalite": "Professions intermédiaires",
+      "ensemble": { "milliers": 226000, "structure": 6.9, "penetration": 3.0 },
+      "hommes":   { "milliers": 71000, "structure": 6.5, "penetration": 2.0 },
+      "femmes":   { "milliers": 155000, "structure": 7.1, "penetration": 4.1 },
+      "csp_plus": { "milliers": 200000, "structure": 35.2, "penetration": 3.1 }
+    },
+    {
+      "categorie": "PCS-individu",
+      "modalite": "Retraités",
+      "ensemble": { "milliers": 2019000, "structure": 61.6, "penetration": 13.5 },
+      "hommes":   { "milliers": 735000, "structure": 67.4, "penetration": 10.8 },
+      "femmes":   { "milliers": 1284000, "structure": 58.7, "penetration": 15.7 },
+      "csp_plus": { "milliers": 50000, "structure": 8.8, "penetration": 7.8 }
+    },
+
+    {
+      "categorie": "Habitat",
+      "modalite": "Agglo. + 100 000 hab",
+      "ensemble": { "milliers": 1235000, "structure": 37.7, "penetration": 7.5 },
+      "hommes":   { "milliers": 383000, "structure": 35.1, "penetration": 4.9 },
+      "femmes":   { "milliers": 852000, "structure": 39.0, "penetration": 9.9 },
+      "csp_plus": { "milliers": 233000, "structure": 41.1, "penetration": 3.7 }
+    },
+    {
+      "categorie": "Habitat",
+      "modalite": "Agglo. 20 000 à 100 000 hab",
+      "ensemble": { "milliers": 623000, "structure": 19.0, "penetration": 8.3 },
+      "hommes":   { "milliers": 217000, "structure": 19.9, "penetration": 5.9 },
+      "femmes":   { "milliers": 406000, "structure": 18.6, "penetration": 10.6 },
+      "csp_plus": { "milliers": 98000, "structure": 17.2, "penetration": 4.1 }
+    },
+    {
+      "categorie": "Habitat",
+      "modalite": "Agglo. - 20 000 hab",
+      "ensemble": { "milliers": 545000, "structure": 16.6, "penetration": 5.5 },
+      "hommes":   { "milliers": 194000, "structure": 17.8, "penetration": 4.1 },
+      "femmes":   { "milliers": 351000, "structure": 16.0, "penetration": 6.8 },
+      "csp_plus": { "milliers": 63000, "structure": 11.2, "penetration": 2.0 }
+    },
+    {
+      "categorie": "Habitat",
+      "modalite": "Agglo. Paris",
+      "ensemble": { "milliers": 104000, "structure": 3.2, "penetration": 1.2 },
+      "hommes":   { "milliers": 27000, "structure": 2.4, "penetration": 0.6 },
+      "femmes":   { "milliers": 78000, "structure": 3.5, "penetration": 1.7 },
+      "csp_plus": { "milliers": 72000, "structure": 12.7, "penetration": 1.6 }
+    },
+    {
+      "categorie": "Habitat",
+      "modalite": "Communes rurales",
+      "ensemble": { "milliers": 770000, "structure": 23.5, "penetration": 6.6 },
+      "hommes":   { "milliers": 270000, "structure": 24.8, "penetration": 4.8 },
+      "femmes":   { "milliers": 500000, "structure": 22.9, "penetration": 8.2 },
+      "csp_plus": { "milliers": 101000, "structure": 17.8, "penetration": 2.7 }
+    }
+  ]
+}
+
+
+------------------------SOCIAL_MEDIA-----------------------
+
+
+
+{
+  "corse_matin_social": [
+    {
+      "mois": "Jan-25",
+      "facebook": 251886,
+      "instagram": 86700,
+      "linkedin": 5439,
+      "tiktok": 15000,
+      "x": 100723,
+      "youtube": null
+    },
+    {
+      "mois": "Feb-25",
+      "facebook": 253414,
+      "instagram": 89100,
+      "linkedin": 5670,
+      "tiktok": 16200,
+      "x": 101001,
+      "youtube": null
+    },
+    {
+      "mois": "Mar-25",
+      "facebook": 254824,
+      "instagram": 91100,
+      "linkedin": 5799,
+      "tiktok": 17400,
+      "x": 101211,
+      "youtube": 10900
+    },
+    {
+      "mois": "Apr-25",
+      "facebook": 257828,
+      "instagram": 93800,
+      "linkedin": 5920,
+      "tiktok": 18900,
+      "x": 101249,
+      "youtube": 11600
+    },
+    {
+      "mois": "May-25",
+      "facebook": 261249,
+      "instagram": 104000,
+      "linkedin": 6101,
+      "tiktok": 23100,
+      "x": 101104,
+      "youtube": 12200
+    },
+    {
+      "mois": "Jun-25",
+      "facebook": 263718,
+      "instagram": 106000,
+      "linkedin": 6368,
+      "tiktok": 23400,
+      "x": 101222,
+      "youtube": 12300
+    },
+    {
+      "mois": "Jul-25",
+      "facebook": 267374,
+      "instagram": 113000,
+      "linkedin": 6545,
+      "tiktok": 25300,
+      "x": 101500,
+      "youtube": 12600
+    },
+    {
+      "mois": "Aug-25",
+      "facebook": 270048,
+      "instagram": 116000,
+      "linkedin": 6779,
+      "tiktok": 26400,
+      "x": 101600,
+      "youtube": 13000
+    },
+    {
+      "mois": "Sep-25",
+      "facebook": 273477,
+      "instagram": 119000,
+      "linkedin": 6967,
+      "tiktok": 27000,
+      "x": 100500,
+      "youtube": 13500
+    },
+    {
+      "mois": "Oct-25",
+      "facebook": 276574,
+      "instagram": 122000,
+      "linkedin": 7134,
+      "tiktok": 28000,
+      "x": 100000,
+      "youtube": 14000
+    },
+    {
+      "mois": "Nov-25",
+      "facebook": 277985,
+      "instagram": 123000,
+      "linkedin": 7318,
+      "tiktok": 28600,
+      "x": 100000,
+      "youtube": 14800
+    },
+    {
+      "mois": "Dec-25",
+      "facebook": 278238,
+      "instagram": 123000,
+      "linkedin": 7356,
+      "tiktok": null,
+      "x": null,
+      "youtube": null
+    },
+    {
+      "mois": "MOYENNE",
+      "facebook": 265551,
+      "instagram": 107225,
+      "linkedin": 6450,
+      "tiktok": 22664,
+      "x": 100919,
+      "youtube": 12767
+    }
+  ]
+}
+
+
+-------------------------TRAFFIC----------------------------
+
+
+{
+  "traffic": [
+    {
+      "periode": "Oct. 25",
+      "visites_totales": 768094,
+      "visites_appli_mobile": 768094,
+      "visites_appli_tablette": null,
+      "pages_vues_totales": 2284552,
+      "pages_par_visite": 3
+    },
+    {
+      "periode": "Sept. 25",
+      "visites_totales": 729443,
+      "visites_appli_mobile": 729443,
+      "visites_appli_tablette": null,
+      "pages_vues_totales": 3148412,
+      "pages_par_visite": 4.3
+    },
+    {
+      "periode": "Aug-25",
+      "visites_totales": 716680,
+      "visites_appli_mobile": 716680,
+      "visites_appli_tablette": null,
+      "pages_vues_totales": 1825182,
+      "pages_par_visite": 2.5
+    },
+    {
+      "periode": "Juil. 25",
+      "visites_totales": 704616,
+      "visites_appli_mobile": 704616,
+      "visites_appli_tablette": null,
+      "pages_vues_totales": 1934817,
+      "pages_par_visite": 2.7
+    },
+    {
+      "periode": "Jun-25",
+      "visites_totales": 655405,
+      "visites_appli_mobile": 655405,
+      "visites_appli_tablette": null,
+      "pages_vues_totales": 1692062,
+      "pages_par_visite": 2.6
+    },
+    {
+      "periode": "May-25",
+      "visites_totales": 694011,
+      "visites_appli_mobile": 694011,
+      "visites_appli_tablette": null,
+      "pages_vues_totales": 1813283,
+      "pages_par_visite": 2.6
+    },
+    {
+      "periode": "Apr-25",
+      "visites_totales": 686104,
+      "visites_appli_mobile": 686104,
+      "visites_appli_tablette": null,
+      "pages_vues_totales": 1832947,
+      "pages_par_visite": 2.7
+    },
+    {
+      "periode": "Mar-25",
+      "visites_totales": 627201,
+      "visites_appli_mobile": 627201,
+      "visites_appli_tablette": null,
+      "pages_vues_totales": 1810625,
+      "pages_par_visite": 2.9
+    },
+    {
+      "periode": "Févr. 25",
+      "visites_totales": 557767,
+      "visites_appli_mobile": 557767,
+      "visites_appli_tablette": null,
+      "pages_vues_totales": 1642574,
+      "pages_par_visite": 2.9
+    },
+    {
+      "periode": "Janv. 25",
+      "visites_totales": 707678,
+      "visites_appli_mobile": 707678,
+      "visites_appli_tablette": null,
+      "pages_vues_totales": 3056079,
+      "pages_par_visite": 4.3
+    },
+    {
+      "periode": "Déc. 24",
+      "visites_totales": 637188,
+      "visites_appli_mobile": 637188,
+      "visites_appli_tablette": null,
+      "pages_vues_totales": 2711646,
+      "pages_par_visite": 4.3
+    },
+    {
+      "periode": "Nov. 24",
+      "visites_totales": 544410,
+      "visites_appli_mobile": 544410,
+      "visites_appli_tablette": null,
+      "pages_vues_totales": 2398811,
+      "pages_par_visite": 4.4
+    },
+    {
+      "periode": "Oct. 24",
+      "visites_totales": 575178,
+      "visites_appli_mobile": 575178,
+      "visites_appli_tablette": null,
+      "pages_vues_totales": 2616125,
+      "pages_par_visite": 4.5
+    }
+  ]
+}
+
+
+
+-----------------WEB_TRAFFIC------------------------------
+{
+  "web_traffic": [
+    {
+      "periode": "Oct. 25",
+      "visites_totales": 2746059,
+      "visites_site_fixe": 512804,
+      "visites_site_mobile": 2233255,
+      "visites_site_amp": null,
+      "pages_vues_totales": 13992034,
+      "pages_par_visite": 5.1
+    },
+    {
+      "periode": "Sept. 25",
+      "visites_totales": 3303350,
+      "visites_site_fixe": 417169,
+      "visites_site_mobile": 2886181,
+      "visites_site_amp": null,
+      "pages_vues_totales": 9115865,
+      "pages_par_visite": 2.8
+    },
+    {
+      "periode": "Aug-25",
+      "visites_totales": 5021735,
+      "visites_site_fixe": 418199,
+      "visites_site_mobile": 4603536,
+      "visites_site_amp": null,
+      "pages_vues_totales": 11295515,
+      "pages_par_visite": 2.2
+    },
+    {
+      "periode": "Juil. 25",
+      "visites_totales": 4005053,
+      "visites_site_fixe": 401520,
+      "visites_site_mobile": 3603533,
+      "visites_site_amp": null,
+      "pages_vues_totales": 10064110,
+      "pages_par_visite": 2.5
+    },
+    {
+      "periode": "Jun-25",
+      "visites_totales": 3756096,
+      "visites_site_fixe": 378611,
+      "visites_site_mobile": 3377485,
+      "visites_site_amp": null,
+      "pages_vues_totales": 9058738,
+      "pages_par_visite": 2.4
+    },
+    {
+      "periode": "May-25",
+      "visites_totales": 2956931,
+      "visites_site_fixe": 378631,
+      "visites_site_mobile": 2578300,
+      "visites_site_amp": null,
+      "pages_vues_totales": 8527401,
+      "pages_par_visite": 2.9
+    },
+    {
+      "periode": "Apr-25",
+      "visites_totales": 3040903,
+      "visites_site_fixe": 371027,
+      "visites_site_mobile": 2669876,
+      "visites_site_amp": null,
+      "pages_vues_totales": 8910228,
+      "pages_par_visite": 2.9
+    },
+    {
+      "periode": "Mar-25",
+      "visites_totales": 3119637,
+      "visites_site_fixe": 401902,
+      "visites_site_mobile": 2717735,
+      "visites_site_amp": null,
+      "pages_vues_totales": 9644816,
+      "pages_par_visite": 3.1
+    },
+    {
+      "periode": "Févr. 25",
+      "visites_totales": 2374130,
+      "visites_site_fixe": 298740,
+      "visites_site_mobile": 2075390,
+      "visites_site_amp": null,
+      "pages_vues_totales": 8095611,
+      "pages_par_visite": 3.4
+    },
+    {
+      "periode": "Janv. 25",
+      "visites_totales": 3515770,
+      "visites_site_fixe": 378256,
+      "visites_site_mobile": 3137514,
+      "visites_site_amp": null,
+      "pages_vues_totales": 10065920,
+      "pages_par_visite": 2.9
+    },
+    {
+      "periode": "Déc. 24",
+      "visites_totales": 2898527,
+      "visites_site_fixe": 357860,
+      "visites_site_mobile": 2540667,
+      "visites_site_amp": null,
+      "pages_vues_totales": 8554492,
+      "pages_par_visite": 3
+    },
+    {
+      "periode": "Nov. 24",
+      "visites_totales": 3134269,
+      "visites_site_fixe": 350019,
+      "visites_site_mobile": 2784250,
+      "visites_site_amp": null,
+      "pages_vues_totales": 8234558,
+      "pages_par_visite": 2.6
+    },
+    {
+      "periode": "Oct. 24",
+      "visites_totales": 3195100,
+      "visites_site_fixe": 393035,
+      "visites_site_mobile": 2802065,
+      "visites_site_amp": null,
+      "pages_vues_totales": 8601376,
+      "pages_par_visite": 2.7
+    }
+  ]
+}
+
+
+
+
+
+
+---------------------TARIF-----------------------
+
+
+{
+  "gamme_privilege_quadrichromie": [
+    {
+      "categorie": "Page Une",
+      "produit": "Module 1",
+      "dimensions": "90 H x 92 L",
+      "tarif_semaine": 1100,
+      "tarif_samedi": 1300
+    },
+    {
+      "categorie": "Page Une",
+      "produit": "Module 2",
+      "dimensions": "90 H x 185 L",
+      "tarif_semaine": 2100,
+      "tarif_samedi": 2500
+    },
+    {
+      "categorie": "Page Une",
+      "produit": "Exclusivité de Page Une",
+      "dimensions": "90 H x 280 L",
+      "tarif_semaine": 2900,
+      "tarif_samedi": 3500
+    },
+    {
+      "categorie": "Page Une",
+      "produit": "Manchette Corse Matin",
+      "dimensions": "55 H x 110 L",
+      "tarif_semaine": 700,
+      "tarif_samedi": 900
+    },
+    {
+      "categorie": "Page Une",
+      "produit": "Un Événement",
+      "dimensions": "Manchettes + Bas de page + DER + Habillage HP",
+      "tarif_semaine": 10000,
+      "tarif_samedi": 13000
+    },
+    {
+      "categorie": "Page Une",
+      "produit": "Exclu de Page Une",
+      "dimensions": "Manchettes + Bas de page + Web",
+      "tarif_semaine": 4500,
+      "tarif_samedi": 6000
+    },
+
+    {
+      "categorie": "Page Deux",
+      "produit": "Manchette Droite",
+      "dimensions": "56 H x 90 L",
+      "tarif_semaine": 350,
+      "tarif_samedi": 400
+    },
+    {
+      "categorie": "Page Deux",
+      "produit": "Module Pied de Page",
+      "dimensions": "90 H x 280 L",
+      "tarif_semaine": 2000,
+      "tarif_samedi": 2200
+    },
+
+    {
+      "categorie": "Page Trois",
+      "produit": "Module Pied de Page – 1/8 Page",
+      "dimensions": "159 H x 90 L",
+      "tarif_semaine": 1100,
+      "tarif_samedi": 1200
+    },
+    {
+      "categorie": "Page Trois",
+      "produit": "Module Pied de Page – 1/4 Page",
+      "dimensions": "159 H x 185 L",
+      "tarif_semaine": 1900,
+      "tarif_samedi": 2400
+    },
+    {
+      "categorie": "Page Trois",
+      "produit": "Module Pied de Page – 1/3 Page",
+      "dimensions": "159 H x 280 L",
+      "tarif_semaine": 2800,
+      "tarif_samedi": 3500
+    },
+    {
+      "categorie": "Page Trois",
+      "produit": "Exclusivité Page 3 – 1/2 Page",
+      "dimensions": "212 H x 280 L",
+      "tarif_semaine": 4800,
+      "tarif_samedi": 6000
+    },
+
+    {
+      "categorie": "Pages Programmes T.V.",
+      "produit": "Bandeau Pied de Page",
+      "dimensions": "90 H x 280 L",
+      "tarif_semaine": 600,
+      "tarif_samedi": 750
+    },
+
+    {
+      "categorie": "Pages METEO",
+      "produit": "Bandeau Pied de Page",
+      "dimensions": "110 H x 280 L",
+      "tarif_semaine": 650,
+      "tarif_samedi": 800
+    },
+
+    {
+      "categorie": "Panoramique (2 pages en vis-à-vis)",
+      "produit": "2 Pages – Centre du Journal",
+      "dimensions": "430 H x 590 L",
+      "tarif_semaine": 9850,
+      "tarif_samedi": 12000
+    },
+    {
+      "categorie": "Panoramique (2 pages en vis-à-vis)",
+      "produit": "2 Pages – Au fil des pages",
+      "dimensions": "",
+      "tarif_semaine": 7600,
+      "tarif_samedi": 9000
+    },
+
+    {
+      "categorie": "La Dernière Page",
+      "produit": "Pleine Page Quadri",
+      "dimensions": "430 H x 280 L",
+      "tarif_semaine": 8000,
+      "tarif_samedi": 10000
+    },
+    {
+      "categorie": "La Dernière Page",
+      "produit": "1/2 Page Quadri",
+      "dimensions": "212 H x 280 L",
+      "tarif_semaine": 4100,
+      "tarif_samedi": 5100
+    },
+
+    {
+      "categorie": "La Une du Cahier Local Ajaccio / Bastia",
+      "produit": "Manchette Droite Simple",
+      "dimensions": "56 H x 90 L",
+      "tarif_semaine": 290,
+      "tarif_samedi": 350
+    },
+    {
+      "categorie": "La Une du Cahier Local Ajaccio / Bastia",
+      "produit": "Bandeau Pied de Page",
+      "dimensions": "130.5 H x 280 L",
+      "tarif_semaine": 1800,
+      "tarif_samedi": 2200
+    },
+    {
+      "categorie": "La Une du Cahier Local Ajaccio / Bastia",
+      "produit": "Bandeau Panoramique",
+      "dimensions": "109 H x 590 L",
+      "tarif_semaine": 3100,
+      "tarif_samedi": 3500
+    },
+
+    {
+      "categorie": "La Une du Cahier Local Autres localités",
+      "produit": "Manchette Droite Simple",
+      "dimensions": "56 H x 90 L",
+      "tarif_semaine": 220,
+      "tarif_samedi": 280
+    },
+
+    {
+      "categorie": "La Une du Cahier des Sports du Quotidien",
+      "produit": "Manchette Droite Simple",
+      "dimensions": "56 H x 90 L",
+      "tarif_semaine": 290,
+      "tarif_samedi": 350
+    },
+    {
+      "categorie": "La Une du Cahier des Sports du Quotidien",
+      "produit": "Bandeau Pied de Page",
+      "dimensions": "130.5 H x 280 L",
+      "tarif_semaine": 1500,
+      "tarif_samedi": 1950
+    }
+  ]
+}
+
+
+
+{
+  "gamme_privilege_quadrichromie_v2": [
+    {
+      "categorie": "Page Une",
+      "produit": "Exclusivité de Page Une",
+      "dimensions": "90 H x 280 L",
+      "tarif_semaine": 3200,
+      "tarif_samedi": 3800
+    },
+    {
+      "categorie": "Page Une",
+      "produit": "Manchette Corse Matin",
+      "dimensions": "55 H x 110 L",
+      "tarif_semaine": 1000,
+      "tarif_samedi": 1200
+    },
+    {
+      "categorie": "Page Une",
+      "produit": "UNE Événement",
+      "dimensions": "Manchettes + Bas de page + DER + Habillage HP",
+      "tarif_semaine": 10300,
+      "tarif_samedi": 13300
+    },
+    {
+      "categorie": "Page Une",
+      "produit": "Exclu de Page Une",
+      "dimensions": "Manchettes + Bas de page + Web",
+      "tarif_semaine": 4800,
+      "tarif_samedi": 6300
+    },
+
+    {
+      "categorie": "Page Deux",
+      "produit": "Module Pied de Page – 1/3 Page",
+      "dimensions": "90 H x 280 L",
+      "tarif_semaine": 2300,
+      "tarif_samedi": 2500
+    },
+
+    {
+      "categorie": "Page Trois",
+      "produit": "Module Pied de Page – 1/3 Page",
+      "dimensions": "159 H x 280 L",
+      "tarif_semaine": 3100,
+      "tarif_samedi": 3800
+    },
+    {
+      "categorie": "Page Trois",
+      "produit": "Exclusivité de Page 3 – 1/2 Page",
+      "dimensions": "212 H x 280 L",
+      "tarif_semaine": 5100,
+      "tarif_samedi": 6300
+    },
+
+    {
+      "categorie": "Panoramique (2 pages en vis-à-vis)",
+      "produit": "2 Pages – Centre du Journal",
+      "dimensions": "430 H x 590 L",
+      "tarif_semaine": 10150,
+      "tarif_samedi": 12300
+    },
+    {
+      "categorie": "Panoramique (2 pages en vis-à-vis)",
+      "produit": "2 Pages – Au fil des pages",
+      "dimensions": "",
+      "tarif_semaine": 7900,
+      "tarif_samedi": 9300
+    },
+
+    {
+      "categorie": "La Dernière Page",
+      "produit": "1/2 Page Quadri",
+      "dimensions": "212 H x 280 L",
+      "tarif_semaine": 4400,
+      "tarif_samedi": 5400
+    },
+    {
+      "categorie": "La Dernière Page",
+      "produit": "Pleine Page Quadri",
+      "dimensions": "430 H x 280 L",
+      "tarif_semaine": 8300,
+      "tarif_samedi": 10300
+    },
+
+    {
+      "categorie": "La Une du Cahier Local Ajaccio / Bastia",
+      "produit": "Bandeau Pied de Page",
+      "dimensions": "130.5 H x 280 L",
+      "tarif_semaine": 2100,
+      "tarif_samedi": 2500
+    },
+    {
+      "categorie": "La Une du Cahier Local Ajaccio / Bastia",
+      "produit": "Bandeau Panoramique",
+      "dimensions": "109 H x 590 L",
+      "tarif_semaine": 3400,
+      "tarif_samedi": 3800
+    },
+
+    {
+      "categorie": "La Une du Cahier des Sports du Quotidien",
+      "produit": "Bandeau Pied de Page",
+      "dimensions": "130.5 H x 280 L",
+      "tarif_semaine": 1800,
+      "tarif_samedi": 2340
+    }
+  ]
+}
+
+
+
+
+
+{
+  "gamme_performance": {
+    "corse_info": [
+      {
+        "categorie": "Pages CORSE INFO",
+        "produit": "Format Standard",
+        "dimensions": "102 H x 90 L",
+        "semaine": { "quadri": null },
+        "samedi": { "quadri": null }
+      },
+      {
+        "categorie": "Pages CORSE INFO",
+        "produit": "1/8ème",
+        "dimensions": "159 H x 90 L ou 74 H x 185 L",
+        "semaine": { "quadri": 1000 },
+        "samedi": { "quadri": 1100 }
+      },
+      {
+        "categorie": "Pages CORSE INFO",
+        "produit": "1/6",
+        "dimensions": "212 H x 90 L",
+        "semaine": { "quadri": 1300 },
+        "samedi": { "quadri": 1400 }
+      },
+      {
+        "categorie": "Pages CORSE INFO",
+        "produit": "1/4",
+        "dimensions": "159 H x 185 L, 212 H x 137.5 L, 130 H x 280 L",
+        "semaine": { "quadri": 1900 },
+        "samedi": { "quadri": 2100 }
+      },
+      {
+        "categorie": "Pages CORSE INFO",
+        "produit": "1/3 page Hauteur ou Largeur",
+        "dimensions": "430 H x 90 L ou 159 H x 280 L",
+        "semaine": { "quadri": 2500 },
+        "samedi": { "quadri": 2700 }
+      },
+      {
+        "categorie": "Pages CORSE INFO",
+        "produit": "Junior Page",
+        "dimensions": "280 H x 185 L",
+        "semaine": { "quadri": 3300 },
+        "samedi": { "quadri": 3600 }
+      },
+      {
+        "categorie": "Pages CORSE INFO",
+        "produit": "1/2 Page",
+        "dimensions": "212 H x 280 L ou 430 H x 137.5 L",
+        "semaine": { "quadri": 3500 },
+        "samedi": { "quadri": 3800 }
+      },
+      {
+        "categorie": "Pages CORSE INFO",
+        "produit": "Page",
+        "dimensions": "430 H x 280 L",
+        "semaine": { "quadri": 7000 },
+        "samedi": { "quadri": 7600 }
+      }
+    ],
+
+    "sports": [
+      {
+        "categorie": "Sports",
+        "produit": "Format Standard",
+        "dimensions": "102 H x 90 L",
+        "semaine": { "quadri": 400 },
+        "samedi": { "quadri": 440 }
+      },
+      {
+        "categorie": "Sports",
+        "produit": "1/8ème",
+        "dimensions": "159 H x 90 L ou 74 H x 185 L",
+        "semaine": { "quadri": 600 },
+        "samedi": { "quadri": 660 }
+      },
+      {
+        "categorie": "Sports",
+        "produit": "1/6",
+        "dimensions": "212 H x 90 L",
+        "semaine": { "quadri": 800 },
+        "samedi": { "quadri": 880 }
+      },
+      {
+        "categorie": "Sports",
+        "produit": "1/4",
+        "dimensions": "159 H x 185 L, 212 H x 137.5 L, 130 H x 280 L",
+        "semaine": { "quadri": 1200 },
+        "samedi": { "quadri": 1320 }
+      },
+      {
+        "categorie": "Sports",
+        "produit": "1/3 page Hauteur ou Largeur",
+        "dimensions": "430 H x 90 L ou 159 H x 280 L",
+        "semaine": { "quadri": 1600 },
+        "samedi": { "quadri": 1760 }
+      },
+      {
+        "categorie": "Sports",
+        "produit": "Junior Page",
+        "dimensions": "280 H x 185 L",
+        "semaine": { "quadri": 2400 },
+        "samedi": { "quadri": 2640 }
+      },
+      {
+        "categorie": "Sports",
+        "produit": "1/2 Page",
+        "dimensions": "212 H x 280 L ou 430 H x 137.5 L",
+        "semaine": { "quadri": 2300 },
+        "samedi": { "quadri": 2530 }
+      },
+      {
+        "categorie": "Sports",
+        "produit": "Page",
+        "dimensions": "430 H x 280 L",
+        "semaine": { "quadri": 4400 },
+        "samedi": { "quadri": 4840 }
+      }
+    ],
+
+    "locales_sans_rigueur": [
+      {
+        "categorie": "Locales sans Rigueur",
+        "produit": "Part de page",
+        "dimensions": "46 H x 90 L",
+        "semaine": { "quadri": 250 },
+        "samedi": { "quadri": 275 },
+        "sports_semaine": 200,
+        "sports_samedi": 220
+      },
+      {
+        "categorie": "Locales sans Rigueur",
+        "produit": "1/16ème",
+        "dimensions": "74 H x 90 L",
+        "semaine": { "quadri": 380 },
+        "samedi": { "quadri": 420 },
+        "sports_semaine": 300,
+        "sports_samedi": 330
+      },
+      {
+        "categorie": "Locales sans Rigueur",
+        "produit": "Module 3",
+        "dimensions": "102 H x 90 L",
+        "semaine": { "quadri": 500 },
+        "samedi": { "quadri": 550 },
+        "sports_semaine": 400,
+        "sports_samedi": 440
+      },
+      {
+        "categorie": "Locales sans Rigueur",
+        "produit": "1/8ème",
+        "dimensions": "159 H x 90 L ou 74 H x 185 L",
+        "semaine": { "quadri": 750 },
+        "samedi": { "quadri": 830 },
+        "sports_semaine": 600,
+        "sports_samedi": 660
+      },
+      {
+        "categorie": "Locales sans Rigueur",
+        "produit": "1/6",
+        "dimensions": "212 H x 90 L",
+        "semaine": { "quadri": 1000 },
+        "samedi": { "quadri": 1100 },
+        "sports_semaine": 800,
+        "sports_samedi": 880
+      },
+      {
+        "categorie": "Locales sans Rigueur",
+        "produit": "1/4 Page",
+        "dimensions": "159 H x 185 L, 212 H x 137.5 L, 130 H x 280 L",
+        "semaine": { "quadri": 1500 },
+        "samedi": { "quadri": 1650 },
+        "sports_semaine": 1200,
+        "sports_samedi": 1320
+      },
+      {
+        "categorie": "Locales sans Rigueur",
+        "produit": "1/3 Page Hauteur",
+        "dimensions": "430 H x 90 L, 159 H x 280 L",
+        "semaine": { "quadri": 2000 },
+        "samedi": { "quadri": 2200 },
+        "sports_semaine": 1600,
+        "sports_samedi": 1760
+      },
+      {
+        "categorie": "Locales sans Rigueur",
+        "produit": "Junior Page",
+        "dimensions": "280 H x 185 L",
+        "semaine": { "quadri": 3000 },
+        "samedi": { "quadri": 3300 },
+        "sports_semaine": 2400,
+        "sports_samedi": 2640
+      },
+      {
+        "categorie": "Locales sans Rigueur",
+        "produit": "1/2 Page",
+        "dimensions": "212 H x 280 L ou 430 H x 137.5 L",
+        "semaine": { "quadri": 2900 },
+        "samedi": { "quadri": 3200 },
+        "sports_semaine": 2300,
+        "sports_samedi": 2530
+      },
+      {
+        "categorie": "Locales sans Rigueur",
+        "produit": "Page",
+        "dimensions": "430 H x 280 L",
+        "semaine": { "quadri": 5500 },
+        "samedi": { "quadri": 6000 },
+        "sports_semaine": 4400,
+        "sports_samedi": 4840
+      }
+    ]
+  }
+}
+
+
+
+
+----------pack proxi corse —----------------------
+
+[
+{
+"pack": "3 parutions en 15 jours max",
+"format": "46 h x 90 l",
+"nbre_bases": 4,
+"ajaccio_quadri": 400,
+"autres_localites_quadri": 350
+},
+{
+"pack": "3 parutions en 15 jours max",
+"format": "74 h x 90 l",
+"nbre_bases": 6,"ajaccio_quadri": 600,
+"autres_localites_quadri": 525
+},
+{
+"pack": "3 parutions en 15 jours max",
+"format": "102 h x 90 l",
+"nbre_bases": 8,
+"ajaccio_quadri": 800,
+"autres_localites_quadri": 700
+},
+{
+"pack": "3 parutions en 15 jours max",
+"format": "159 h x 90 l",
+"nbre_bases": 12,
+"ajaccio_quadri": 1200,
+"autres_localites_quadri": 1050
+},
+{
+"pack": "5 parutions en 15 jours max",
+"format": "46 h x 90 l",
+"nbre_bases": 4,
+"ajaccio_quadri": 600,
+"autres_localites_quadri": 530
+},
+{
+"pack": "5 parutions en 15 jours max",
+"format": "74 h x 90 l",
+"nbre_bases": 6,
+"ajaccio_quadri": 900,
+"autres_localites_quadri": 800
+},
+{
+"pack": "5 parutions en 15 jours max",
+"format": "102 h x 90 l",
+"nbre_bases": 8,
+"ajaccio_quadri": 1200,
+"autres_localites_quadri": 1100
+},
+{
+"pack": "5 parutions en 15 jours max",
+"format": "159 h x 90 l","nbre_bases": 12,
+"ajaccio_quadri": 1800,
+"autres_localites_quadri": 1600
+},
+{
+"pack": "7 parutions en 15 jours max",
+"format": "46 h x 90 l",
+"nbre_bases": 4,
+"ajaccio_quadri": 800,
+"autres_localites_quadri": 700
+},
+{
+"pack": "7 parutions en 15 jours max",
+"format": "74 h x 90 l",
+"nbre_bases": 6,
+"ajaccio_quadri": 1200,
+"autres_localites_quadri": 1050
+},
+{
+"pack": "7 parutions en 15 jours max",
+"format": "102 h x 90 l",
+"nbre_bases": 8,
+"ajaccio_quadri": 1600,
+"autres_localites_quadri": 1400
+},
+{
+"pack": "7 parutions en 15 jours max",
+"format": "159 h x 90 l",
+"nbre_bases": 12,
+"ajaccio_quadri": 2400,
+"autres_localites_quadri": 2100
+}
+]
+
+
+
+
+
+
+
+---------------------------pack proxi bi media —-------------
+
+[
+{
+"pack": "3 parutions en 15 jours max",
+"format": "46 h x 90 l",
+"nbre_bases": 4,
+"ajaccio_quadri": 500,
+"autres_localites_quadri": 450
+},
+{
+"pack": "3 parutions en 15 jours max",
+"format": "74 h x 90 l",
+"nbre_bases": 6,
+"ajaccio_quadri": 700,
+"autres_localites_quadri": 625
+},
+{
+"pack": "3 parutions en 15 jours max",
+"format": "102 h x 90 l",
+"nbre_bases": 8,
+"ajaccio_quadri": 900,
+"autres_localites_quadri": 800
+},
+{
+"pack": "3 parutions en 15 jours max",
+"format": "159 h x 90 l",
+"nbre_bases": 12,
+"ajaccio_quadri": 1300,
+"autres_localites_quadri": 1150
+},
+{
+"pack": "5 parutions en 15 jours max",
+"format": "46 h x 90 l",
+"nbre_bases": 4,
+"ajaccio_quadri": 700,
+"autres_localites_quadri": 630
+},
+{
+"pack": "5 parutions en 15 jours max",
+"format": "74 h x 90 l",
+"nbre_bases": 6,
+"ajaccio_quadri": 1000,
+"autres_localites_quadri": 900
+},
+{
+"pack": "5 parutions en 15 jours max","format": "102 h x 90 l",
+"nbre_bases": 8,
+"ajaccio_quadri": 1300,
+"autres_localites_quadri": 1200
+},
+{
+"pack": "5 parutions en 15 jours max",
+"format": "159 h x 90 l",
+"nbre_bases": 12,
+"ajaccio_quadri": 1900,
+"autres_localites_quadri": 1700
+},
+{
+"pack": "7 parutions en 15 jours max",
+"format": "46 h x 90 l",
+"nbre_bases": 4,
+"ajaccio_quadri": 900,
+"autres_localites_quadri": 800
+},
+{
+"pack": "7 parutions en 15 jours max",
+"format": "74 h x 90 l",
+"nbre_bases": 6,
+"ajaccio_quadri": 1300,
+"autres_localites_quadri": 1150
+},
+{
+"pack": "7 parutions en 15 jours max",
+"format": "102 h x 90 l",
+"nbre_bases": 8,
+"ajaccio_quadri": 1700,
+"autres_localites_quadri": 1500
+},
+{
+"pack": "7 parutions en 15 jours max",
+"format": "159 h x 90 l",
+"nbre_bases": 12,
+"ajaccio_quadri": 2500,
+"autres_localites_quadri": 2200
+}
+]
+
+
+
+
+
+
+
+
+---------------------- emploi int form —----------------------
+[
+{
+"categorie": "Modules Rubriques - Annonces Classées",
+"module": "MOD 1",
+"dimensions": "74 H x 90 L ou 130 H x 45 L",
+"tarif_1_jour": 150,
+"tarif_3_jours": 350,
+"tarif_5_jours": 600
+},
+{
+"categorie": "Modules Rubriques - Annonces Classées",
+"module": "MOD 2",
+"dimensions": "102 H x 45 L",
+"tarif_1_jour": 250,
+"tarif_3_jours": 500,
+"tarif_5_jours": 900
+},
+{
+"categorie": "Modules Rubriques - Annonces Classées",
+"module": "MOD 3",
+"dimensions": "102 H x 90 L",
+"tarif_1_jour": 350,
+"tarif_3_jours": 700,
+"tarif_5_jours": 1200
+},
+{
+"categorie": "Modules Rubriques - Annonces Classées",
+"module": "MOD 4",
+"dimensions": "159 H x 90 L",
+"tarif_1_jour": 500,
+"tarif_3_jours": 1000,
+"tarif_5_jours": 1500
+},
+{"categorie": "Grands Formats Corse Info",
+"module": "MOD 4",
+"dimensions": "159 H x 90 L",
+"tarif_1_jour": 600,
+"tarif_3_jours": 1500,
+"tarif_5_jours": 2000
+},
+{
+"categorie": "Grands Formats Corse Info",
+"module": "1/4 page",
+"dimensions": "212 H x 137,5 L ou 160 H x 185 L",
+"tarif_1_jour": 1000,
+"tarif_3_jours": 2000,
+"tarif_5_jours": 3000
+},
+{
+"categorie": "Grands Formats Corse Info",
+"module": "1/2 page",
+"dimensions": "212 H x 280 L",
+"tarif_1_jour": 2000,
+"tarif_3_jours": 4000,
+"tarif_5_jours": 6000
+},
+{
+"categorie": "Grands Formats Corse Info",
+"module": "Page",
+"dimensions": "430 H x 280 L",
+"tarif_1_jour": 4000,
+"tarif_3_jours": 8000,
+"tarif_5_jours": 12000
+}
+]
+
+
+
+
+
+
+
+
+—-----------------immo moteurs —---------------------------
+[
+{
+"categorie": "Page UNE","emplacement": "Bandeau",
+"format": "130,5 mm H x 280 mm L",
+"tarif_ht": 1200
+},
+{
+"categorie": "Page intérieure",
+"emplacement": "Manchette",
+"format": "56 mm H x 90 mm L",
+"tarif_ht": 250
+},
+{
+"categorie": "Page intérieure",
+"emplacement": "1/8 page",
+"format": "160 mm H x 90 mm L",
+"tarif_ht": 400
+},
+{
+"categorie": "Page intérieure",
+"emplacement": "Bandeau",
+"format": "130,5 mm H x 280 mm L",
+"tarif_ht": 700
+},
+{
+"categorie": "Page intérieure",
+"emplacement": "1/4 page",
+"format": "212 mm H x 137,5 mm L",
+"tarif_ht": 700
+},
+{
+"categorie": "Page intérieure",
+"emplacement": "1/4 page",
+"format": "160 mm H x 185 mm L",
+"tarif_ht": 700
+},
+{
+"categorie": "Page intérieure",
+"emplacement": "1/2 page",
+"format": "212 mm H x 280 mm L",
+"tarif_ht": 1200
+},
+{"categorie": "Page intérieure",
+"emplacement": "1 page",
+"format": "430 mm H x 280 mm L",
+"tarif_ht": 2000
+},
+{
+"categorie": "Page intérieure",
+"emplacement": "1 DER",
+"format": "430 mm H x 280 mm L",
+"tarif_ht": 2500
+},
+{
+"categorie": "Forfait",
+"emplacement": "Forfait 20 PA Photos",
+"format": null,
+"tarif_ht": 350
+}
+]
+
+
+
+
+
+
+---------------------settimana —-----------------------------------
+[
+{
+"categorie": "Page Une Quadri",
+"emplacement": "Manchette Titre Droite",
+"format": "56 H x 90 L",
+"unite": null,
+"tarif_ht": 450
+},
+{
+"categorie": "Page Une Quadri",
+"emplacement": "Module Bas de Page",
+"format": "90 H x 280 L",
+"unite": null,
+"tarif_ht": 1100
+},
+{
+"categorie": "Page Deux Quadri","emplacement": "Module Bas de Page",
+"format": "90 H x 280 L",
+"unite": null,
+"tarif_ht": 800
+},
+{
+"categorie": "Pages Intérieures",
+"emplacement": "Bandeau",
+"format": "130.5 H x 280 L",
+"unite": "Unité",
+"tarif_ht": 1000
+},
+{
+"categorie": "Pages Intérieures",
+"emplacement": "Panoramique",
+"format": "2× 430 H x 280 L",
+"unite": "Unité",
+"tarif_ht": 3000
+},
+{
+"categorie": "Pages Intérieures",
+"emplacement": "1/4 page",
+"format": "212 H x 137.5 L",
+"unite": "Unité",
+"tarif_ht": 1200
+},
+{
+"categorie": "Pages Intérieures",
+"emplacement": "1/2 page",
+"format": "212 H x 280 L",
+"unite": "Unité",
+"tarif_ht": 2000
+},
+{
+"categorie": "Pages Intérieures",
+"emplacement": "1 page",
+"format": "430 H x 280 L",
+"unite": "Unité",
+"tarif_ht": 4000
+},{
+"categorie": "Page Ecologie / Développement Durable / Sponsoring",
+"emplacement": "Bandeau",
+"format": "90 H x 280 L",
+"unite": "Unité",
+"tarif_ht": 900
+}
+]
+
+
+
+
+
+
+—---------supplement thematiques —------------------------------
+[
+{
+"categorie": "Page Une Quadri",
+"emplacement": "Manchette",
+"format": "56 mm H x 90 mm L",
+"tarif_quadri": 350
+},
+{
+"categorie": "Page Une Quadri",
+"emplacement": "Bandeau",
+"format": "90 mm H x 280 mm L",
+"tarif_quadri": 850
+},
+{
+"categorie": "Page Une Quadri",
+"emplacement": "Couplage Bandeau + Manchette",
+"format": null,
+"tarif_quadri": 1100
+},
+{
+"categorie": "Page Deux Quadri",
+"emplacement": "Module Bas de Page",
+"format": "90 H x 280 L",
+"tarif_quadri": 650
+},{
+"categorie": "Formats complémentaires",
+"emplacement": "Bandeau",
+"format": "130.5 H x 280 L",
+"tarif_quadri": 650
+},
+{
+"categorie": "Formats complémentaires",
+"emplacement": "Panoramique",
+"format": "2 × 430 H x 280 L",
+"tarif_quadri": 2500
+},
+{
+"categorie": "Formats complémentaires",
+"emplacement": "1/4 Page",
+"format": "212 H x 137.5 L",
+"tarif_quadri": 650
+},
+{
+"categorie": "Formats complémentaires",
+"emplacement": "1/3 Page",
+"format": "159 H x 280 L",
+"tarif_quadri": 750
+},
+{
+"categorie": "Formats complémentaires",
+"emplacement": "1/2 Page",
+"format": "212 H x 280 L",
+"tarif_quadri": 950
+},
+{
+"categorie": "Formats complémentaires",
+"emplacement": "Page",
+"format": "430 H x 280 L",
+"tarif_quadri": 1600
+}
+]
+
+
+
+
+
+------------------diverto jaquette —-------------------------
+[
+{
+"categorie": "La 1/2 Jaquette + 1 Page en 2ème",
+"edition": "Corse",
+"description": "Forfait jaquette + 1 page",
+"tarif_forfaitaire": 4500
+},
+{
+"categorie": "La 1/2 Jaquette + 1 Page en 2ème cahier",
+"edition": "Haute Corse",
+"description": "Forfait jaquette + 1 page",
+"tarif_forfaitaire": 3000
+},
+{
+"categorie": "La 1/2 Jaquette + 1 Page en 2ème cahier",
+"edition": "Corse du Sud",
+"description": "Forfait jaquette + 1 page",
+"tarif_forfaitaire": 2000
+}
+]
+
+
+
+
+
+
+—-----------------diverto sur couv panoram —-------------------------
+[
+{
+"categorie": "La 1/2 Jaquette + 1 Page en 2ème",
+"edition": "Corse",
+"description": "Forfait jaquette + 1 page",
+"tarif_forfaitaire": 4500
+},
+{
+"categorie": "La 1/2 Jaquette + 1 Page en 2ème cahier",
+"edition": "Haute Corse",
+"description": "Forfait jaquette + 1 page",
+"tarif_forfaitaire": 3000
+},
+{
+"categorie": "La 1/2 Jaquette + 1 Page en 2ème cahier",
+"edition": "Corse du Sud",
+"description": "Forfait jaquette + 1 page","tarif_forfaitaire": 2000
+}
+]
+
+
+
+
+
+
+—------------diverto mod pub —-----------------------
+[
+{
+"categorie": "Quadrichromie",
+"format": "3ème de Couverture - Page",
+"description": "Pleine page",
+"tarif_forfaitaire": 1000
+},
+{
+"categorie": "Quadrichromie",
+"format": "3ème de Couverture - 1/2 Page",
+"description": "Largeur",
+"tarif_forfaitaire": 600
+},
+{
+"categorie": "Quadrichromie",
+"format": "1 page",
+"description": "Pleine page intérieure",
+"tarif_forfaitaire": 1000
+},
+{
+"categorie": "Quadrichromie",
+"format": "1/2 page",
+"description": "Demi-page intérieure",
+"tarif_forfaitaire": 600
+}
+]
+
+
+
+-------------------- diverto enc broch —-------------------
+[
+{
+"edition": "Corse",
+"tarif_ht": 2780,"description": "Tarif forfaitaire HT (abonnés postaux compris)"
+}
+]
+
+
+
+
+
+
+----------------diverto encart —--------------------
+[
+{
+"categorie": "Edition Corse",
+"edition": "Corse",
+"poids": "< 50 g",
+"tarif_ht": 2725
+},
+{
+"categorie": "Edition Corse",
+"edition": "Corse",
+"poids": "50–100 g",
+"tarif_ht": 4088
+},
+{
+"categorie": "Edition Corse",
+"edition": "Corse",
+"poids": "100–150 g",
+"tarif_ht": 5450
+},
+{
+"categorie": "Zones Multi-Éditions",
+"edition": "Haute Corse",
+"poids": "< 50 g",
+"tarif_ht": 1600
+},
+{
+"categorie": "Zones Multi-Éditions",
+"edition": "Haute Corse",
+"poids": "50–100 g",
+"tarif_ht": 2400
+},
+{
+"categorie": "Zones Multi-Éditions",
+"edition": "Haute Corse",
+"poids": "100–150 g","tarif_ht": 3200
+},
+{
+"categorie": "Zones Multi-Éditions",
+"edition": "Corse du Sud",
+"poids": "< 50 g",
+"tarif_ht": 1150
+},
+{
+"categorie": "Zones Multi-Éditions",
+"edition": "Corse du Sud",
+"poids": "50–100 g",
+"tarif_ht": 1725
+},
+{
+"categorie": "Zones Multi-Éditions",
+"edition": "Corse du Sud",
+"poids": "100–150 g",
+"tarif_ht": 2300
+}
+]
+
+
+
+
+
+
+
+
+
+----------diverto un evenement —-----------------------
+[
+{
+"categorie": "Edition Corse",
+"edition": "Corse",
+"tarif_forfaitaire": 5000
+},
+{
+"categorie": "Zones Multi-Éditions",
+"edition": "Haute Corse",
+"tarif_forfaitaire": 3000
+},
+{
+"categorie": "Zones Multi-Éditions",
+"edition": "Corse du Sud",
+"tarif_forfaitaire": 2000
+}
+]
+
+
+
+
+
+
+----------------------femina triangle --------------------------
+[
+{
+"categorie": "Espace publicitaire",
+"edition": "Corse",
+"format": "Page",
+"tarif_ht": 1000
+},
+{
+"categorie": "Espace publicitaire",
+"edition": "Corse",
+"format": "1/2 Page",
+"tarif_ht": 600
+},
+{
+"categorie": "Espace publicitaire",
+"edition": "Corse",
+"format": "1/4 Page",
+"tarif_ht": 350
+},
+{
+"categorie": "Publi-Rédactionnel",
+"format": "1 Page",
+"tarif_base_ht": 1000,
+"frais_techniques_ht": 50,
+"tarif_total_ht": 1050
+},
+{
+"categorie": "Publi-Rédactionnel",
+"format": "Double Page",
+"tarif_base_ht": 1500,
+"frais_techniques_ht": 100,
+"tarif_total_ht": 1600
+}
+]
+
+
+
+--------------- femina tdce deco —------------------------
+[
+{
+"categorie": "Espace publicitaire",
+"edition": "Corse",
+"format": "Page",
+"tarif_ht": 1150
+},
+{
+"categorie": "Espace publicitaire",
+"edition": "Corse",
+"format": "1/2 Page",
+"tarif_ht": 750
+},
+{
+"categorie": "Espace publicitaire",
+"edition": "Corse",
+"format": "1/4 Page",
+"tarif_ht": 400
+},
+{
+"categorie": "Publi-Rédactionnel",
+"format": "1 Page",
+"tarif_base_ht": 1150,
+"frais_techniques_ht": 50,
+"tarif_total_ht": 1200
+},
+{
+"categorie": "Publi-Rédactionnel",
+"format": "Double Page",
+"tarif_base_ht": 2200,
+"frais_techniques_ht": 100,
+"tarif_total_ht": 2300
+}
+]
+
+
+
+-------------- encarts femina —---------------------------
+[
+{"categorie": "Zones départementales",
+"edition": "Corse",
+"poids": "< 50 g",
+"tarif_ht": 2725
+},
+{
+"categorie": "Zones départementales",
+"edition": "Corse",
+"poids": "50–100 g",
+"tarif_ht": 4088
+},
+{
+"categorie": "Zones départementales",
+"edition": "Corse",
+"poids": "100–150 g",
+"tarif_ht": 5450
+},
+{
+"categorie": "Zones multi-éditons",
+"edition": "Haute Corse",
+"poids": "< 50 g",
+"tarif_ht": 1600
+},
+{
+"categorie": "Zones multi-éditons",
+"edition": "Haute Corse",
+"poids": "50–100 g",
+"tarif_ht": 2400
+},
+{
+"categorie": "Zones multi-éditons",
+"edition": "Haute Corse",
+"poids": "100–150 g",
+"tarif_ht": 3200
+},
+{
+"categorie": "Zones multi-éditons",
+"edition": "Corse du Sud",
+"poids": "< 50 g",
+"tarif_ht": 1150
+},{
+"categorie": "Zones multi-éditons",
+"edition": "Corse du Sud",
+"poids": "50–100 g",
+"tarif_ht": 1725
+},
+{
+"categorie": "Zones multi-éditons",
+"edition": "Corse du Sud",
+"poids": "100–150 g",
+"tarif_ht": 2300
+}
+]
+
+
+
+
+
+
+
+
